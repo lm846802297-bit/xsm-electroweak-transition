@@ -115,3 +115,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# The archive-covariance GitHub Actions workflow watches this source path.
