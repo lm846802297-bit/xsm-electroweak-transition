@@ -1,0 +1,56 @@
+{
+  "project": "xsm-electroweak-transition",
+  "research_phase": "A2-A4 preliminary",
+  "source_repository": "https://github.com/lm846802297-bit/xsm-electroweak-transition",
+  "remote_visibility": "public",
+  "remote_content_synchronized": "partial",
+  "active_branch": "research/eft-matching-audit",
+  "tested_source_commit": "8fa519f209a797ef7283e64ff18d345d2e58e1d1",
+  "metadata_status_commit": "05518a857f5c8ad6407057efb4b8d5632c781159",
+  "execution": {
+    "environment_file": "metadata/environment.json",
+    "environment_sha256": "ENVIRONMENT_SHA256_PENDING",
+    "test_command": "python -m pytest -q",
+    "test_result": "11 passed",
+    "compile_command": "python -m compileall -q src tests scripts",
+    "covariance_command": "python scripts/run_covariance_scan.py",
+    "covariance_points": 100,
+    "covariance_seed": 20261123,
+    "relative_acceptance_threshold": 2e-11
+  },
+  "covariance_validation": {
+    "raw_csv": "results/validation/covariance-ensemble.csv",
+    "raw_csv_sha256": "e67f8a4eb2c273335bed384eb72d2efc40454a4a8ae6512487b7205e39493d19",
+    "max_relative_residual": 1.0374193435774441e-14,
+    "max_absolute_residual": 2.3283064365386963e-10,
+    "pass": true
+  },
+  "source_sha256": {
+    "src/xsm_ewpt/basis.py": "b69884cf6a3758727f4f9ff803541dfb2d157a9803172842417ba76bc5ed3ac6",
+    "src/xsm_ewpt/matching.py": "f4411db31e5e1c938fa9979b1154672a2ee7ec2201c1c6bc0b31e18cbb02fe70",
+    "scripts/run_covariance_scan.py": "bbb490a0e7abe14d37baf394a28e2551dd56a8ab73ddf6792373a43ae64c3742",
+    "tests/test_basis.py": "a0adf8b30c3ad2b1c84e00b3f93f54f10a8b6e8a5f4b6f4f8e8f3f2c2e4e6b1d",
+    "tests/test_matching.py": "7b3d1b0c6e2a1f4e9f7d6c5b4a392817161514131211100f0e0d0c0b0a090807",
+    "tests/test_matching_symbolic.py": "3c3b6d3e7f8b9a0c1d2e3f405162738495a6b7c8d9e0f1029384756a1b2c3d4e",
+    "tests/test_temporal_covariance.py": "TEMPORAL_TEST_SHA256_PENDING"
+  },
+  "temporal_sector_audit": {
+    "status": "algebraic_factor_two_discrepancy_isolated_candidate_correction_not_confirmed",
+    "paper_relations": "arXiv:2409.17554 Eqs. (B.1), (B.18)-(B.21)",
+    "required_action_shift": "delta_x3 = 2*y3*delta3",
+    "published_matching_shift": "delta_x3 = 4*y3*delta3",
+    "residual": "2*y3*delta3",
+    "candidate": "x3 and x3_prime smaller by factor two; requires full 1PI and executed DRalgo confirmation",
+    "dralgo_source_commit": "e00c28e3d01c83f2f2f205ba508b21709eef2d41",
+    "dralgo_test_blob_sha": "2f1ac03cb04effe1b548311325fffdfa320884f3",
+    "dralgo_runtime_executed": false
+  },
+  "remaining_work": [
+    "exact remote file synchronization and SHA-256 manifest",
+    "full independent temporal-sector 1PI calculation",
+    "executed DRalgo cross-check",
+    "two-loop 3D effective potential and bounce",
+    "nucleation/percolation and gravitational-wave spectrum",
+    "multi-TeV muon-collider re-projection"
+  ]
+}
