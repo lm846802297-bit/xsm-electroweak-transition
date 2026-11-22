@@ -11,9 +11,9 @@
   "git_working_tree_clean_before_provenance": true,
   "execution": {
     "environment_file": "metadata/environment.json",
-    "environment_sha256": "dad7f7611f0ce2b9d1f0a68a8309e71712c889d3c5f5a86a73e7aceed25bdfbb",
+    "environment_sha256": "f6280be868bddb9fd7a5dddf09f117b8bfdf803e9e6553c5085b6374bacf653c",
     "test_command": "python -m pytest -q",
-    "test_result": "........... [100%]\n11 passed in 0.42s",
+    "test_result": "...........                                                              [100%]\n11 passed in 0.62s",
     "compile_command": "python -m compileall -q src tests scripts",
     "covariance_command": "python scripts/run_covariance_scan.py",
     "hardware": {
@@ -36,7 +36,7 @@
     "acceptance_relative_tolerance": 2e-11,
     "pass": true,
     "input_config_sha256": "1e9c2d3d3ca11c85c18b41f85d7e9dc61522dddf7ae1a50e8a5304b5a58a8344",
-    "source_script_sha256": "bbb490a0e7abe14d37baf394a28e2551dd56a8ab73ddf6792373a43ae64c3742",
+    "source_script_sha256": "bb0581d4c93c4c396f6b79263fe9af1b6bb5bfdc6cbd4b934c36db69558c2dba",
     "source_module_sha256": {
       "basis.py": "b69884cf6a3758727f4f9ff803541dfb2d157a9803172842417ba76bc5ed3ac6",
       "matching.py": "f4411db31e5e1c938fa9979b1154672a2ee7ec2201c1c6bc0b31e18cbb02fe70"
@@ -46,12 +46,12 @@
   "source_sha256": {
     "src/xsm_ewpt/basis.py": "b69884cf6a3758727f4f9ff803541dfb2d157a9803172842417ba76bc5ed3ac6",
     "src/xsm_ewpt/matching.py": "f4411db31e5e1c938fa9979b1154672a2ee7ec2201c1c6bc0b31e18cbb02fe70",
-    "scripts/run_covariance_scan.py": "bbb490a0e7abe14d37baf394a28e2551dd56a8ab73ddf6792373a43ae64c3742",
+    "scripts/run_covariance_scan.py": "bb0581d4c93c4c396f6b79263fe9af1b6bb5bfdc6cbd4b934c36db69558c2dba",
+    "scripts/write_sha256_manifest.py": "573066c3cfbc17be4159c97871fa7398c57765aaa229e0af4166d9304f382267",
     "tests/test_basis.py": "a0ad08ba1de8207141543d3a5b95af6531c47445759505cc55217e38df35a5c8",
     "tests/test_matching.py": "d7d8d54342ca5f1e1d5affc7064016c7e3cf44824c305063d69bec96dce671a6",
     "tests/test_matching_symbolic.py": "8719d5195a5be282dc36ea198464afb735995ceb6b983e99c5bfc7f1b72a95f4",
-    "tests/test_temporal_covariance.py": "8167645904c5781310fe6f2e4d5178a537dcb46b4f696b0935075fdef774ce48",
-    "docs/theory/temporal-factor-two-audit.md": "7f204009e77037a27641eadfb07e226325544943022da0bc0e6a4281a6a0165c"
+    "tests/test_temporal_covariance.py": "8167645904c5781310fe6f2e4d5178a537dcb46b4f696b0935075fdef774ce48"
   },
   "external_crosscheck": {
     "DRalgo_commit": "e00c28e3d01c83f2f2f205ba508b21709eef2d41",
@@ -78,10 +78,11 @@
   },
   "archive_workflow": {
     "path": ".github/workflows/archive-covariance.yml",
-    "sha256": "89296f1602e43d7872b85d88d00730e65e62d6efba22a0633987a1ccd75c5315",
+    "sha256": "c4cdbf3af4b8f491597c9cefba696df5ca6256e6086624e8494eba6e908ed812",
     "manifest_script": "scripts/write_sha256_manifest.py",
-    "manifest_script_sha256": "036650e92356bdbc89301b853e2201bf34d24113e8f83cae32ebd49ddcc9a834",
+    "manifest_script_sha256": "573066c3cfbc17be4159c97871fa7398c57765aaa229e0af4166d9304f382267",
     "purpose": "independent GitHub Actions rerun; archives raw CSV, summary, logs, pytest output and complete SHA-256 manifest to the research branch"
   },
-  "local_latest_commit_before_provenance": "345f409ca1436264134d2f7f07e69e1657edfca3"
+  "local_latest_commit_before_provenance": "345f409ca1436264134d2f7f07e69e1657edfca3",
+  "validated_checkout_commit": "706a5d995d8801887c3e65c99a771d037de6c752"
 }
