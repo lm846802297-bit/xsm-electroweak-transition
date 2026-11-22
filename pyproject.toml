@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xsm-electroweak-transition"
+version = "0.1.0"
+description = "Reproducible xSM basis mapping and dimensional-reduction matching audit"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "xSM EWPT research project" }]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8", "sympy>=1.12"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
