@@ -1,39 +1,70 @@
 {
   "project": "xsm-electroweak-transition",
-  "research_phase": "A2-A4 preliminary",
-  "source_repository": "https://github.com/lm846802297-bit/xsm-electroweak-transition",
+  "intended_remote": "https://github.com/lm846802297-bit/xsm-electroweak-transition.git",
+  "remote_created": true,
   "remote_visibility": "public",
+  "remote_verified": true,
   "remote_content_synchronized": "partial",
   "active_branch": "research/eft-matching-audit",
   "tested_source_commit": "8fa519f209a797ef7283e64ff18d345d2e58e1d1",
-  "metadata_status_commit": "05518a857f5c8ad6407057efb4b8d5632c781159",
+  "main_baseline_commit": "72f67f7cde183a95f3270c136338f39b464897b9",
+  "git_working_tree_clean_before_provenance": true,
   "execution": {
     "environment_file": "metadata/environment.json",
-    "environment_sha256": "ENVIRONMENT_SHA256_PENDING",
+    "environment_sha256": "dad7f7611f0ce2b9d1f0a68a8309e71712c889d3c5f5a86a73e7aceed25bdfbb",
     "test_command": "python -m pytest -q",
-    "test_result": "11 passed",
+    "test_result": "........... [100%]\n11 passed in 0.42s",
     "compile_command": "python -m compileall -q src tests scripts",
     "covariance_command": "python scripts/run_covariance_scan.py",
-    "covariance_points": 100,
-    "covariance_seed": 20261123,
-    "relative_acceptance_threshold": 2e-11
+    "hardware": {
+      "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+      "logical_cpu_count": 5,
+      "memory_total": "6090668 kB"
+    }
   },
   "covariance_validation": {
-    "raw_csv": "results/validation/covariance-ensemble.csv",
-    "raw_csv_sha256": "e67f8a4eb2c273335bed384eb72d2efc40454a4a8ae6512487b7205e39493d19",
-    "max_relative_residual": 1.0374193435774441e-14,
+    "n_points": 100,
+    "seed": 20261123,
     "max_absolute_residual": 2.3283064365386963e-10,
-    "pass": true
+    "max_relative_residual": 1.0374193435774441e-14,
+    "worst_component": {
+      "point": 32,
+      "field": "b1_3",
+      "path_a": 566626.2840328205,
+      "path_b": 566626.2840328207
+    },
+    "acceptance_relative_tolerance": 2e-11,
+    "pass": true,
+    "input_config_sha256": "1e9c2d3d3ca11c85c18b41f85d7e9dc61522dddf7ae1a50e8a5304b5a58a8344",
+    "source_script_sha256": "bbb490a0e7abe14d37baf394a28e2551dd56a8ab73ddf6792373a43ae64c3742",
+    "source_module_sha256": {
+      "basis.py": "b69884cf6a3758727f4f9ff803541dfb2d157a9803172842417ba76bc5ed3ac6",
+      "matching.py": "f4411db31e5e1c938fa9979b1154672a2ee7ec2201c1c6bc0b31e18cbb02fe70"
+    },
+    "raw_csv_sha256": "e67f8a4eb2c273335bed384eb72d2efc40454a4a8ae6512487b7205e39493d19"
   },
   "source_sha256": {
     "src/xsm_ewpt/basis.py": "b69884cf6a3758727f4f9ff803541dfb2d157a9803172842417ba76bc5ed3ac6",
     "src/xsm_ewpt/matching.py": "f4411db31e5e1c938fa9979b1154672a2ee7ec2201c1c6bc0b31e18cbb02fe70",
     "scripts/run_covariance_scan.py": "bbb490a0e7abe14d37baf394a28e2551dd56a8ab73ddf6792373a43ae64c3742",
-    "tests/test_basis.py": "a0adf8b30c3ad2b1c84e00b3f93f54f10a8b6e8a5f4b6f4f8e8f3f2c2e4e6b1d",
-    "tests/test_matching.py": "7b3d1b0c6e2a1f4e9f7d6c5b4a392817161514131211100f0e0d0c0b0a090807",
-    "tests/test_matching_symbolic.py": "3c3b6d3e7f8b9a0c1d2e3f405162738495a6b7c8d9e0f1029384756a1b2c3d4e",
-    "tests/test_temporal_covariance.py": "TEMPORAL_TEST_SHA256_PENDING"
+    "tests/test_basis.py": "a0ad08ba1de8207141543d3a5b95af6531c47445759505cc55217e38df35a5c8",
+    "tests/test_matching.py": "d7d8d54342ca5f1e1d5affc7064016c7e3cf44824c305063d69bec96dce671a6",
+    "tests/test_matching_symbolic.py": "8719d5195a5be282dc36ea198464afb735995ceb6b983e99c5bfc7f1b72a95f4",
+    "tests/test_temporal_covariance.py": "8167645904c5781310fe6f2e4d5178a537dcb46b4f696b0935075fdef774ce48",
+    "docs/theory/temporal-factor-two-audit.md": "7f204009e77037a27641eadfb07e226325544943022da0bc0e6a4281a6a0165c"
   },
+  "external_crosscheck": {
+    "DRalgo_commit": "e00c28e3d01c83f2f2f205ba508b21709eef2d41",
+    "DRalgo_runtime_executed": false,
+    "reason": "No Mathematica/WolframKernel/wolframscript executable in the ChatGPT Linux environment"
+  },
+  "scope_status": {
+    "A2_basis_map": "implemented and tested",
+    "A3_first_stage_NLO_matching": "implemented and tested",
+    "second_stage_temporal_matching": "open audit question",
+    "full_scan_bounce_GW": "not started"
+  },
+  "metadata_status_commit": "05518a857f5c8ad6407057efb4b8d5632c781159",
   "temporal_sector_audit": {
     "status": "algebraic_factor_two_discrepancy_isolated_candidate_correction_not_confirmed",
     "paper_relations": "arXiv:2409.17554 Eqs. (B.1), (B.18)-(B.21)",
@@ -45,12 +76,12 @@
     "dralgo_test_blob_sha": "2f1ac03cb04effe1b548311325fffdfa320884f3",
     "dralgo_runtime_executed": false
   },
-  "remaining_work": [
-    "exact remote file synchronization and SHA-256 manifest",
-    "full independent temporal-sector 1PI calculation",
-    "executed DRalgo cross-check",
-    "two-loop 3D effective potential and bounce",
-    "nucleation/percolation and gravitational-wave spectrum",
-    "multi-TeV muon-collider re-projection"
-  ]
+  "archive_workflow": {
+    "path": ".github/workflows/archive-covariance.yml",
+    "sha256": "89296f1602e43d7872b85d88d00730e65e62d6efba22a0633987a1ccd75c5315",
+    "manifest_script": "scripts/write_sha256_manifest.py",
+    "manifest_script_sha256": "036650e92356bdbc89301b853e2201bf34d24113e8f83cae32ebd49ddcc9a834",
+    "purpose": "independent GitHub Actions rerun; archives raw CSV, summary, logs, pytest output and complete SHA-256 manifest to the research branch"
+  },
+  "local_latest_commit_before_provenance": "345f409ca1436264134d2f7f07e69e1657edfca3"
 }
