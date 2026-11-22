@@ -77,3 +77,5 @@ for rel in paths:
         lines.append(f"{sha256(path)}  {rel}")
 MANIFEST.write_text("\n".join(lines) + "\n")
 print(f"Wrote {len(lines)} SHA-256 entries to {MANIFEST.relative_to(ROOT)}")
+
+# Keep provenance and manifest synchronized whenever the archive workflow changes.
