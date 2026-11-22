@@ -41,7 +41,7 @@ jobs:
       - name: Reproduce 100-point covariance ensemble
         run: python scripts/run_covariance_scan.py > results/validation/covariance-run.log
 
-      - name: Generate complete SHA-256 manifest
+      - name: Generate provenance and complete SHA-256 manifest
         run: python scripts/write_sha256_manifest.py
 
       - name: Commit native outputs and fingerprints
@@ -52,7 +52,8 @@ jobs:
                   results/validation/covariance-summary.json \
                   results/validation/covariance-run.log \
                   results/validation/pytest.txt \
-                  metadata/SHA256SUMS
+                  metadata/SHA256SUMS \
+                  metadata/provenance.json
           if git diff --cached --quiet; then
             echo "No validation artifacts changed."
           else
