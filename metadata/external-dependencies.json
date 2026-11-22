@@ -1,0 +1,24 @@
+{
+  "DRalgo": {
+    "repository": "https://github.com/DR-algo/DRalgo",
+    "snapshot_commit": "e00c28e3d01c83f2f2f205ba508b21709eef2d41",
+    "license": "GPL-3.0",
+    "xsm_example": {
+      "path": "examples/15_smRealSinglet.m",
+      "blob_sha": "49a6150ac7d5a13807668e27b09ab9267b788cad"
+    },
+    "temporal_test": {
+      "path": "tests/smRealSinglet.m",
+      "blob_sha": "2f1ac03cb04effe1b548311325fffdfa320884f3"
+    },
+    "soft_to_ultrasoft_module": {
+      "path": "Kernel/SoftToUS.m",
+      "blob_sha": "3776d90243ad4d95102dbf1781e3a8982c6d86ce"
+    },
+    "runtime_requirements": {
+      "mathematica": "12.x-15.x",
+      "groupmath": "1.1.3"
+    },
+    "execution_status": "source_inspected; runtime_not_available_in_current_environment"
+  }
+}
