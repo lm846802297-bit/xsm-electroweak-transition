@@ -1,14 +1,18 @@
 project: xsm-electroweak-transition
-status: A2-A3-source-synchronized-pending-full-remote-validation
+status: remote-public-draft-pr-open-source-audit-in-progress
 remote_repository: https://github.com/lm846802297-bit/xsm-electroweak-transition
+remote_created: true
 remote_visibility: public
-main_branch_policy: reviewed-results-only
+remote_content_synchronized: partial
+main_branch_policy: completed-reviewed-results-only
 active_branch: research/eft-matching-audit
+active_pull_request: 1
+active_pull_request_state: open-draft
 milestones:
-  A2_basis_map: implemented
-  A3_first_stage_nlo_matching: implemented
+  A2_basis_map: implemented_tests_passed
+  A3_nlo_matching: implemented_covariance_tests_passed
+  A4_temporal_sector: factor_two_discrepancy_isolated_full_1pi_and_dralgo_runtime_pending
   DRalgo_crosscheck: source_inspected_runtime_pending
-  temporal_sector_covariance: open_audit_question
   full_scan: not_started
   bounce_percolation: not_started
   gravitational_waves: not_started
