@@ -1,0 +1,8 @@
+{
+  "parent": "9116236f39517641eec98fa6d718ca0d4b4f207c",
+  "prior_inputs": {"path": "../w-mixed-physical-scalar-audit/inputs.json", "sha256": "5d040c72127348c39aa8af899bf65a84ba1e95c7fc7dd0654ef8ee01eb402091"},
+  "prior_bubbles": {"path": "../w-mixed-physical-scalar-audit/native-results.json", "sha256": "4cabba7d59d8d66640d9cca889689e9886f868c60f05e95f0beb446f1d629b4f"},
+  "cutoff_to_mass_ratios": ["1e3", "1e12", "1e26"],
+  "working_dps": 65,
+  "cutoff_guard_dps": 65
+}

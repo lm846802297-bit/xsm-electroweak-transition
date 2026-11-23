@@ -1,0 +1,32 @@
+{
+  "record_type": "task_provenance",
+  "provenance_version": "1.0.0",
+  "repository": "lm846802297-bit/xsm-electroweak-transition",
+  "central_repository": "lm846802297-bit/high-energy-theory-research",
+  "central_commit_sha": "db503f0eb579bdbcac702e44237a6610c34690e7",
+  "lock_file_path": "research/standards-lock.yaml",
+  "lock_file_sha256": "6585db254d00d803c17307b03cffb2986f51897c6ac98f8a4f8e9fbbf6e412f2",
+  "task_id": "20261123-w-physical-scalar-seagull",
+  "task_brief_path": "docs/theory/w-physical-scalar-seagull-audit/task-brief.md",
+  "task_brief_sha256": "2b0b6d2e89a23d1abde5292eb57cc3b6c81f60859cd5fda8d3aee087924cd115",
+  "applied_profiles": [
+    "task-handoff",
+    "research-compute",
+    "research-quality-gate",
+    "calculation-result-archive",
+    "rcrps-v1.0.1"
+  ],
+  "project_extensions": [
+    {
+      "path": "CONTRIBUTING.md",
+      "scope": "Research provenance, reproducibility, and independent physical checks",
+      "sha256": "533a7e6482f5965eb83efa74a71a9939592b63cc8f857e795e97586a720826d8"
+    }
+  ],
+  "acceptance_criteria": [
+    "Signed independent proper-time regulator converges to A36 with the derived error bound for both states at each scale; final absolute error <1e-48 GeV².",
+    "Higgs-basis Hessian, exact A28 cancellation, fixed-scheme A30 W input, analytic scale slope and zero-mixing/degeneracy controls pass.",
+    "Incorrect finite scheme conversion is detected; A58 physical-Higgs W subset only, no 1PR, other W/Z contributions or complete matching.",
+    "Native output byte replay, locked central adoption and RCRPS v1.0.1 checks pass."
+  ]
+}

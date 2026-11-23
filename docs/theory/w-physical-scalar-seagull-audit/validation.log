@@ -1,0 +1,11 @@
+test_analytic_scale_slope (test_seagull.Seagull.test_analytic_scale_slope) ... ok
+test_conversion_negative_control (test_seagull.Seagull.test_conversion_negative_control) ... ok
+test_doublet_hessian_zero_mix_and_degeneracy (test_seagull.Seagull.test_doublet_hessian_zero_mix_and_degeneracy) ... ok
+test_signed_alternate_regulator_and_cutoff_bound (test_seagull.Seagull.test_signed_alternate_regulator_and_cutoff_bound) ... ok
+test_w_projectors_and_prior_sum (test_seagull.Seagull.test_w_projectors_and_prior_sum) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.036s
+
+OK
+PASS byte-identical native replay
