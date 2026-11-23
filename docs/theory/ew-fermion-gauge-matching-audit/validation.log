@@ -1,0 +1,10 @@
+test_coupling_projection_and_archived_benchmark (test_fermion_gauge.FermionGaugeTests.test_coupling_projection_and_archived_benchmark) ... ok
+test_dependencies_fail_closed (test_fermion_gauge.FermionGaugeTests.test_dependencies_fail_closed) ... ok
+test_scale_log_and_fermion_rg_from_Weyl_charges (test_fermion_gauge.FermionGaugeTests.test_scale_log_and_fermion_rg_from_Weyl_charges) ... ok
+test_tadpole_null_directions_and_nonzero_vev_direction (test_fermion_gauge.FermionGaugeTests.test_tadpole_null_directions_and_nonzero_vev_direction) ... ok
+test_trace_pv_scaleless_width_and_early_D4 (test_fermion_gauge.FermionGaugeTests.test_trace_pv_scaleless_width_and_early_D4) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.084s
+
+OK

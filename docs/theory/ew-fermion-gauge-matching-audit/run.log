@@ -1,0 +1,10 @@
+Python 3.12.14, mpmath 1.3.0 (65 working digits).
+Replayed from repository-equivalent sibling paths; both native dependency bytes matched immutable GitHub copies.
+At mu_bar=MZ=91.1876 GeV:
+W light pole = +100.40634376225648344 +164.37522634733378216i GeV^2
+W closed fermion pole = +179.45693046216957888 +164.37522634733378216i GeV^2
+A28 fermion relative = +0.01322393860552000651
+A29 fermion relative = +0.05007569924190788834
+A28/A29 fermion pole coefficients = +0.01079791812621999669, +0.00516542157180569721
+Max direct/PV difference (new light W) = 3.0386e-64 GeV^2
+Native result replay matched byte-for-byte.

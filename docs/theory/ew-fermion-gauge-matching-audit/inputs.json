@@ -1,0 +1,24 @@
+{
+  "source": {
+    "doi": "10.1103/PhysRevD.103.115035",
+    "arxiv": "2103.07467v3",
+    "arxiv_sha256": "a8cc0d7652d4a6e7e882c33eaafcb04348c4ae2a3c858d62f43d98c74bef1121",
+    "erratum_doi": "10.1103/PhysRevD.109.039902",
+    "erratum_sha256": "f6c91fe8332b61382d398e84710368afda17ac5de6e10e8e133ffd61af91bb70"
+  },
+  "parent": "6726ea60b15301e542ff2e18fc6588a8e0d2de73",
+  "GF_GeV_minus2": "0.000011663787",
+  "MW_GeV": "80.379",
+  "MZ_GeV": "91.1876",
+  "Mt_GeV": "172.76",
+  "mu_bar_GeV": ["91.1876", "80.379", "172.76"],
+  "W_massless_quark_families": 2,
+  "W_massless_lepton_families": 3,
+  "quark_colors": 3,
+  "archive_dependencies": {
+    "wtb_commit": "29ba0e97b845d9c51913663b217639112ed95086",
+    "wtb_native_sha256": "dcf6b5787ade602aa54806a54656013a678a1630705538d2d4a3bb5a6907e79d",
+    "z_commit": "6726ea60b15301e542ff2e18fc6588a8e0d2de73",
+    "z_native_sha256": "a66219cba0e301906a3e42edba9c4d7edef5cb9539a58098b5b48fddf0ab033a"
+  }
+}
