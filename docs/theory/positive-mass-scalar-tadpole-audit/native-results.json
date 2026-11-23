@@ -1,0 +1,799 @@
+{
+  "examples": [
+    {
+      "Higgs": 34677.5721172728,
+      "T": 120,
+      "alpha_H": 45,
+      "alpha_S": -45,
+      "label": "equal positive masses with opposite slopes",
+      "massless_eq_2_8_local": 0.0,
+      "singlet": -34677.5721172728,
+      "thermal_scalar_total": 0.0,
+      "x_H": 0.5,
+      "x_S": 0.5
+    },
+    {
+      "Higgs": 34677.5721172728,
+      "T": 120,
+      "alpha_H": 45,
+      "alpha_S": -45,
+      "label": "unequal positive masses with opposite slopes",
+      "massless_eq_2_8_local": 0.0,
+      "singlet": -14783.722156676096,
+      "thermal_scalar_total": 19893.849960596708,
+      "x_H": 0.5,
+      "x_S": 1.5
+    },
+    {
+      "Higgs": 34677.5721172728,
+      "T": 120,
+      "alpha_H": 45,
+      "alpha_S": 18,
+      "label": "same-sign slopes and unequal positive masses",
+      "massless_eq_2_8_local": 75600.0,
+      "singlet": 5913.488862670439,
+      "thermal_scalar_total": 40591.06097994324,
+      "x_H": 0.5,
+      "x_S": 1.5
+    }
+  ],
+  "max_absolute_radial_bessel_difference": 2.7755575615628914e-17,
+  "rows": [
+    {
+      "F_bessel_summed": 0.08333333333333333,
+      "F_thermal": 0.08333333333333333,
+      "HT_through_x2_log_and_constant": 0.08333333333333333,
+      "LO_ratio": 1.0,
+      "absolute_radial_bessel_difference": 0.0,
+      "bessel_tail_bound": 0.0,
+      "bessel_terms": 0,
+      "linear_soft_only": 0.08333333333333333,
+      "observed_R": 0.0,
+      "quad_reported_error": 0.0,
+      "rigorous_R_global": [
+        0.0,
+        0.0
+      ],
+      "rigorous_R_paired": [
+        0.0,
+        0.0
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.08333333333333333,
+            0.08333333333333333
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.08333333333333333,
+            0.08333333333333333
+          ],
+          "vacuum_ms": 0.0,
+          "zero_matsubara_DR": -0.0
+        },
+        {
+          "hard_ms_interval": [
+            0.08333333333333333,
+            0.08333333333333333
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.08333333333333333,
+            0.08333333333333333
+          ],
+          "vacuum_ms": 0.0,
+          "zero_matsubara_DR": -0.0
+        },
+        {
+          "hard_ms_interval": [
+            0.08333333333333333,
+            0.08333333333333333
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.08333333333333333,
+            0.08333333333333333
+          ],
+          "vacuum_ms": 0.0,
+          "zero_matsubara_DR": -0.0
+        }
+      ],
+      "x": 0
+    },
+    {
+      "F_bessel_summed": 0.08139252036535738,
+      "F_thermal": 0.08139252036535738,
+      "HT_through_x2_log_and_constant": 0.08139252032769805,
+      "LO_ratio": 0.9767102443842886,
+      "absolute_radial_bessel_difference": 0.0,
+      "bessel_tail_bound": 4.2145782563948165e-25,
+      "bessel_terms": 1760,
+      "linear_soft_only": 0.08134389654468464,
+      "observed_R": 3.765933398458543e-11,
+      "quad_reported_error": 5.444367286998975e-14,
+      "rigorous_R_global": [
+        3.765899498130845e-11,
+        3.765959117723756e-11
+      ],
+      "rigorous_R_paired": [
+        3.765933402802574e-11,
+        3.7659334028039845e-11
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.08335056550903071,
+            0.08335056550903071
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.08139252036535738,
+            0.08139252036535738
+          ],
+          "vacuum_ms": -3.139164497535808e-05,
+          "zero_matsubara_DR": -0.0019894367886486917
+        },
+        {
+          "hard_ms_interval": [
+            0.0833487991677228,
+            0.0833487991677228
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.08139252036535738,
+            0.08139252036535738
+          ],
+          "vacuum_ms": -3.3157986283272956e-05,
+          "zero_matsubara_DR": -0.0019894367886486917
+        },
+        {
+          "hard_ms_interval": [
+            0.08332876429486885,
+            0.08332876429486885
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.08139252036535738,
+            0.08139252036535738
+          ],
+          "vacuum_ms": -5.319285913720931e-05,
+          "zero_matsubara_DR": -0.0019894367886486917
+        }
+      ],
+      "x": 0.025
+    },
+    {
+      "F_bessel_summed": 0.0795270084616351,
+      "F_thermal": 0.07952700846163513,
+      "HT_through_x2_log_and_constant": 0.0795270078590981,
+      "LO_ratio": 0.9543241015396215,
+      "absolute_radial_bessel_difference": 2.7755575615628914e-17,
+      "bessel_tail_bound": 8.323797543768905e-25,
+      "bessel_terms": 880,
+      "linear_soft_only": 0.07935445975603594,
+      "observed_R": 6.025370341555814e-10,
+      "quad_reported_error": 5.4612510729275044e-14,
+      "rigorous_R_global": [
+        6.025153041084417e-10,
+        6.025534588358009e-10
+      ],
+      "rigorous_R_paired": [
+        6.025370017612827e-10,
+        6.025370017621857e-10
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.08340226248802252,
+            0.08340226248802252
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.0795270084616351,
+            0.0795270084616351
+          ],
+          "vacuum_ms": -0.0001036195509099689,
+          "zero_matsubara_DR": -0.0039788735772973835
+        },
+        {
+          "hard_ms_interval": [
+            0.08339519712279085,
+            0.08339519712279085
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.0795270084616351,
+            0.0795270084616351
+          ],
+          "vacuum_ms": -0.00011068491614162842,
+          "zero_matsubara_DR": -0.0039788735772973835
+        },
+        {
+          "hard_ms_interval": [
+            0.0833150576313751,
+            0.0833150576313751
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.07952700846163509,
+            0.07952700846163509
+          ],
+          "vacuum_ms": -0.00019082440755737384,
+          "zero_matsubara_DR": -0.0039788735772973835
+        }
+      ],
+      "x": 0.05
+    },
+    {
+      "F_bessel_summed": 0.07597800011482353,
+      "F_thermal": 0.07597800011482353,
+      "HT_through_x2_log_and_constant": 0.0759779904750213,
+      "LO_ratio": 0.9117360013778824,
+      "absolute_radial_bessel_difference": 0.0,
+      "bessel_tail_bound": 1.6231491894902706e-24,
+      "bessel_terms": 440,
+      "linear_soft_only": 0.07537558617873856,
+      "observed_R": 9.639802234229222e-09,
+      "quad_reported_error": 5.5034546502417655e-14,
+      "rigorous_R_global": [
+        9.638413902610196e-09,
+        9.640855341372815e-09
+      ],
+      "rigorous_R_paired": [
+        9.639802210193609e-09,
+        9.639802210251395e-09
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.08360905718174425,
+            0.08360905718174425
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.0759780001148235,
+            0.0759780001148235
+          ],
+          "vacuum_ms": -0.000326690087674022,
+          "zero_matsubara_DR": -0.007957747154594767
+        },
+        {
+          "hard_ms_interval": [
+            0.08358079572081761,
+            0.08358079572081761
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.0759780001148235,
+            0.0759780001148235
+          ],
+          "vacuum_ms": -0.00035495154860066007,
+          "zero_matsubara_DR": -0.007957747154594767
+        },
+        {
+          "hard_ms_interval": [
+            0.08326023775515463,
+            0.08326023775515463
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.0759780001148235,
+            0.0759780001148235
+          ],
+          "vacuum_ms": -0.0006755095142636417,
+          "zero_matsubara_DR": -0.007957747154594767
+        }
+      ],
+      "x": 0.1
+    },
+    {
+      "F_bessel_summed": 0.06647905878204272,
+      "F_thermal": 0.06647905878204272,
+      "HT_through_x2_log_and_constant": 0.06647868244303545,
+      "LO_ratio": 0.7977487053845126,
+      "absolute_radial_bessel_difference": 0.0,
+      "bessel_tail_bound": 3.756443974785893e-24,
+      "bessel_terms": 176,
+      "linear_soft_only": 0.06343896544684641,
+      "observed_R": 3.7633900726308234e-07,
+      "quad_reported_error": 5.353145451355999e-14,
+      "rigorous_R_global": [
+        3.76000648791347e-07,
+        3.7659591177237553e-07
+      ],
+      "rigorous_R_paired": [
+        3.7633900724399636e-07,
+        3.7633900725810443e-07
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.08505692347614506,
+            0.08505692347614507
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.0664790587820427,
+            0.06647905878204272
+          ],
+          "vacuum_ms": -0.001316503192384564,
+          "zero_matsubara_DR": -0.019894367886486918
+        },
+        {
+          "hard_ms_interval": [
+            0.08488028934535356,
+            0.08488028934535358
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.06647905878204269,
+            0.0664790587820427
+          ],
+          "vacuum_ms": -0.001493137323176052,
+          "zero_matsubara_DR": -0.019894367886486918
+        },
+        {
+          "hard_ms_interval": [
+            0.08287680205995994,
+            0.08287680205995995
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.0664790587820427,
+            0.06647905878204272
+          ],
+          "vacuum_ms": -0.0034966246085696862,
+          "zero_matsubara_DR": -0.019894367886486918
+        }
+      ],
+      "x": 0.25
+    },
+    {
+      "F_bessel_summed": 0.0535147717859148,
+      "F_thermal": 0.053514771785914815,
+      "HT_through_x2_log_and_constant": 0.05350876264596932,
+      "LO_ratio": 0.6421772614309779,
+      "absolute_radial_bessel_difference": 1.3877787807814457e-17,
+      "bessel_tail_bound": 6.578637781068883e-24,
+      "bessel_terms": 88,
+      "linear_soft_only": 0.04354459756035949,
+      "observed_R": 6.009139945493958e-06,
+      "quad_reported_error": 5.317267032431574e-14,
+      "rigorous_R_global": [
+        5.987617557227016e-06,
+        6.0255345883580085e-06
+      ],
+      "rigorous_R_paired": [
+        6.009139944796609e-06,
+        6.009139945699526e-06
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.09023219768849604,
+            0.09023219768849694
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.05351477178591413,
+            0.05351477178591503
+          ],
+          "vacuum_ms": -0.0030713098703919156,
+          "zero_matsubara_DR": -0.039788735772973836
+        },
+        {
+          "hard_ms_interval": [
+            0.08952566116533009,
+            0.08952566116533099
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.05351477178591413,
+            0.05351477178591503
+          ],
+          "vacuum_ms": -0.003777846393557868,
+          "zero_matsubara_DR": -0.039788735772973836
+        },
+        {
+          "hard_ms_interval": [
+            0.08151171202375555,
+            0.08151171202375646
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.05351477178591413,
+            0.05351477178591503
+          ],
+          "vacuum_ms": -0.011791795535132404,
+          "zero_matsubara_DR": -0.039788735772973836
+        }
+      ],
+      "x": 0.5
+    },
+    {
+      "F_bessel_summed": 0.04321132701273909,
+      "F_thermal": 0.043211327012739095,
+      "HT_through_x2_log_and_constant": 0.043181008599989315,
+      "LO_ratio": 0.5185359241528692,
+      "absolute_radial_bessel_difference": 6.938893903907228e-18,
+      "bessel_tail_bound": 6.63801885745385e-24,
+      "bessel_terms": 59,
+      "linear_soft_only": 0.023650229673872578,
+      "observed_R": 3.03184127497802e-05,
+      "quad_reported_error": 4.992418594073814e-14,
+      "rigorous_R_global": [
+        3.007574093120877e-05,
+        3.0504268853562417e-05
+      ],
+      "rigorous_R_paired": [
+        3.0318412742094957e-05,
+        3.031841275237973e-05
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.09887257598031574,
+            0.09887257598032602
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.04321132701273141,
+            0.0432113270127417
+          ],
+          "vacuum_ms": -0.004021854691876428,
+          "zero_matsubara_DR": -0.05968310365946075
+        },
+        {
+          "hard_ms_interval": [
+            0.09728286880319234,
+            0.09728286880320262
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.04321132701273141,
+            0.0432113270127417
+          ],
+          "vacuum_ms": -0.005611561868999819,
+          "zero_matsubara_DR": -0.05968310365946075
+        },
+        {
+          "hard_ms_interval": [
+            0.07925148323464963,
+            0.07925148323465991
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.04321132701273141,
+            0.0432113270127417
+          ],
+          "vacuum_ms": -0.023642947437542527,
+          "zero_matsubara_DR": -0.05968310365946075
+        }
+      ],
+      "x": 0.75
+    },
+    {
+      "F_bessel_summed": 0.034929081728555515,
+      "F_thermal": 0.034929081728555515,
+      "HT_through_x2_log_and_constant": 0.03483371053323962,
+      "LO_ratio": 0.4191489807426662,
+      "absolute_radial_bessel_difference": 0.0,
+      "bessel_tail_bound": 9.934813230581975e-24,
+      "bessel_terms": 44,
+      "linear_soft_only": 0.003755861787385656,
+      "observed_R": 9.537119531589228e-05,
+      "quad_reported_error": 4.6882253070407984e-14,
+      "rigorous_R_global": [
+        9.40268260854506e-05,
+        9.640855341372814e-05
+      ],
+      "rigorous_R_paired": [
+        9.5371195272763e-05,
+        9.537119533054944e-05
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.11100012538947776,
+            0.11100012538953555
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.03492908172851238,
+            0.03492908172857017
+          ],
+          "vacuum_ms": -0.003506427884982302,
+          "zero_matsubara_DR": -0.07957747154594767
+        },
+        {
+          "hard_ms_interval": [
+            0.10817397929681395,
+            0.10817397929687174
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.03492908172851238,
+            0.03492908172857017
+          ],
+          "vacuum_ms": -0.006332573977646111,
+          "zero_matsubara_DR": -0.07957747154594767
+        },
+        {
+          "hard_ms_interval": [
+            0.07611818273051581,
+            0.0761181827305736
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.03492908172851238,
+            0.03492908172857017
+          ],
+          "vacuum_ms": -0.03838837054394426,
+          "zero_matsubara_DR": -0.07957747154594767
+        }
+      ],
+      "x": 1
+    },
+    {
+      "F_bessel_summed": 0.022814386044253232,
+      "F_thermal": 0.022814386044253235,
+      "HT_through_x2_log_and_constant": 0.022337915626561726,
+      "LO_ratio": 0.27377263253103884,
+      "absolute_radial_bessel_difference": 3.469446951953614e-18,
+      "bessel_tail_bound": 3.923123172867476e-24,
+      "bessel_terms": 30,
+      "linear_soft_only": -0.036032873985588174,
+      "observed_R": 0.0004764704176915095,
+      "quad_reported_error": 7.611785293698984e-14,
+      "rigorous_R_global": [
+        0.00046175161528896414,
+        0.00048806830165699867
+      ],
+      "rigorous_R_paired": [
+        0.00047647041720036854,
+        0.0004764704178585873
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.14584550068749494,
+            0.14584550068815316
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.0228143860437621,
+            0.02281438604442032
+          ],
+          "vacuum_ms": 0.0036649073248113486,
+          "zero_matsubara_DR": -0.1193662073189215
+        },
+        {
+          "hard_ms_interval": [
+            0.1394866719790014,
+            0.1394866719796596
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.0228143860437621,
+            0.02281438604442032
+          ],
+          "vacuum_ms": -0.0026939213836822194,
+          "zero_matsubara_DR": -0.1193662073189215
+        },
+        {
+          "hard_ms_interval": [
+            0.06736112970483055,
+            0.06736112970548877
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.0228143860437621,
+            0.02281438604442032
+          ],
+          "vacuum_ms": -0.07481946365785305,
+          "zero_matsubara_DR": -0.1193662073189215
+        }
+      ],
+      "x": 1.5
+    },
+    {
+      "F_bessel_summed": 0.014853544104866969,
+      "F_thermal": 0.014853544104866969,
+      "HT_through_x2_log_and_constant": 0.013374538838512418,
+      "LO_ratio": 0.17824252925840364,
+      "absolute_radial_bessel_difference": 0.0,
+      "bessel_tail_bound": 1.0687531165112598e-23,
+      "bessel_terms": 22,
+      "linear_soft_only": -0.07582160975856202,
+      "observed_R": 0.0014790052663545515,
+      "quad_reported_error": 2.453332568705347e-14,
+      "rigorous_R_global": [
+        0.0014006239755764115,
+        0.0015425368546196502
+      ],
+      "rigorous_R_paired": [
+        0.0014790052635951024,
+        0.0014790052672933682
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.1950980220404151,
+            0.19509802204411336
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.01485354410210752,
+            0.014853544105805786
+          ],
+          "vacuum_ms": 0.021089534846412232,
+          "zero_matsubara_DR": -0.15915494309189535
+        },
+        {
+          "hard_ms_interval": [
+            0.18379343766975986,
+            0.18379343767345813
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.01485354410210752,
+            0.014853544105805786
+          ],
+          "vacuum_ms": 0.009784950475756995,
+          "zero_matsubara_DR": -0.15915494309189535
+        },
+        {
+          "hard_ms_interval": [
+            0.05557025140456728,
+            0.05557025140826554
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.01485354410210752,
+            0.014853544105805786
+          ],
+          "vacuum_ms": -0.11843823578943559,
+          "zero_matsubara_DR": -0.15915494309189535
+        }
+      ],
+      "x": 2
+    },
+    {
+      "F_bessel_summed": 0.006207978876661889,
+      "F_thermal": 0.006207978876661889,
+      "HT_through_x2_log_and_constant": -0.0009252272251783489,
+      "LO_ratio": 0.07449574651994267,
+      "absolute_radial_bessel_difference": 0.0,
+      "bessel_tail_bound": 2.862711199068816e-24,
+      "bessel_terms": 15,
+      "linear_soft_only": -0.1553990813045097,
+      "observed_R": 0.007133206101840238,
+      "quad_reported_error": 6.333110737984504e-14,
+      "rigorous_R_global": [
+        0.006359337679547558,
+        0.007809092826511979
+      ],
+      "rigorous_R_paired": [
+        0.0071332060704097046,
+        0.007133206112534002
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.33860932715158804,
+            0.33860932719371234
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.006207978845231411,
+            0.006207978887355708
+          ],
+          "vacuum_ms": 0.09366893366851364,
+          "zero_matsubara_DR": -0.238732414637843
+        },
+        {
+          "hard_ms_interval": [
+            0.31317401231761377,
+            0.3131740123597381
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.006207978845231411,
+            0.006207978887355708
+          ],
+          "vacuum_ms": 0.06823361883453938,
+          "zero_matsubara_DR": -0.238732414637843
+        },
+        {
+          "hard_ms_interval": [
+            0.024671843220930436,
+            0.024671843263054733
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.006207978845231411,
+            0.006207978887355708
+          ],
+          "vacuum_ms": -0.22026855026214398,
+          "zero_matsubara_DR": -0.238732414637843
+        }
+      ],
+      "x": 3
+    },
+    {
+      "F_bessel_summed": 0.002545584545378234,
+      "F_thermal": 0.002545584545378235,
+      "HT_through_x2_log_and_constant": -0.018652944007525374,
+      "LO_ratio": 0.030547014544538818,
+      "absolute_radial_bessel_difference": 8.673617379884035e-19,
+      "bessel_tail_bound": 5.0959397763354715e-24,
+      "bessel_terms": 11,
+      "linear_soft_only": -0.23497655285045738,
+      "observed_R": 0.02119852855290361,
+      "quad_reported_error": 1.0852581668904957e-14,
+      "rigorous_R_global": [
+        0.017562696773673954,
+        0.024680589673914403
+      ],
+      "rigorous_R_paired": [
+        0.02119852837631537,
+        0.021198528612987357
+      ],
+      "split": [
+        {
+          "hard_ms_interval": [
+            0.5456745954835954,
+            0.5456745957202673
+          ],
+          "mu_over_T": 0.8,
+          "thermal_reconstructed_interval": [
+            0.0025455843687900506,
+            0.002545584605462038
+          ],
+          "vacuum_ms": 0.22481912493101466,
+          "zero_matsubara_DR": -0.3183098861837907
+        },
+        {
+          "hard_ms_interval": [
+            0.5004562580009745,
+            0.5004562582376464
+          ],
+          "mu_over_T": 1.0,
+          "thermal_reconstructed_interval": [
+            0.0025455843687900506,
+            0.002545584605462038
+          ],
+          "vacuum_ms": 0.17960078744839372,
+          "zero_matsubara_DR": -0.3183098861837907
+        },
+        {
+          "hard_ms_interval": [
+            -0.012436487059795935,
+            -0.012436486823123948
+          ],
+          "mu_over_T": 12.566370614359172,
+          "thermal_reconstructed_interval": [
+            0.002545584368789995,
+            0.0025455846054619827
+          ],
+          "vacuum_ms": -0.3332919576123766,
+          "zero_matsubara_DR": -0.3183098861837907
+        }
+      ],
+      "x": 4
+    }
+  ],
+  "runtime": {
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scipy": "1.17.0"
+  },
+  "scope": "positive scalar mass H=0 static 4D thermal determinant; not full EFT or resummation",
+  "sha256": {
+    "inputs.json": "ef51d82bef204a1100899b65641aee464ff42f2b802396b8ad4e7f416e6f1a55",
+    "tadpole.py": "96f1d696d7895be95c3c3bc1fce039549b1cad4fef121dec2c397a4ee3c2be01",
+    "test_tadpole.py": "f7b7bc9558fa7a442a3e0a28d1c22cb7ca129e26f06520f1a0d5d68e3a4aacb8"
+  },
+  "x_threshold_LO_fraction_0p9": 0.11433755226152889
+}
