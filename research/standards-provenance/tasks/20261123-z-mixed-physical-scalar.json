@@ -1,0 +1,32 @@
+{
+  "record_type": "task_provenance",
+  "provenance_version": "1.0.0",
+  "repository": "lm846802297-bit/xsm-electroweak-transition",
+  "central_repository": "lm846802297-bit/high-energy-theory-research",
+  "central_commit_sha": "db503f0eb579bdbcac702e44237a6610c34690e7",
+  "lock_file_path": "research/standards-lock.yaml",
+  "lock_file_sha256": "6585db254d00d803c17307b03cffb2986f51897c6ac98f8a4f8e9fbbf6e412f2",
+  "task_id": "20261123-z-mixed-physical-scalar",
+  "task_brief_path": "docs/theory/z-mixed-physical-scalar-audit/task-brief.md",
+  "task_brief_sha256": "0220517c155e774424ca0b0a94393201dcc80b778a8c77cb886346ef34d23a9c",
+  "applied_profiles": [
+    "task-handoff",
+    "research-compute",
+    "research-quality-gate",
+    "calculation-result-archive",
+    "rcrps-v1.0.1"
+  ],
+  "project_extensions": [
+    {
+      "path": "CONTRIBUTING.md",
+      "scope": "Research provenance, reproducibility, and independent physical checks",
+      "sha256": "533a7e6482f5965eb83efa74a71a9939592b63cc8f857e795e97586a720826d8"
+    }
+  ],
+  "acceptance_criteria": [
+    "Signed shifted D-dimensional loop and analytic PV agree below 1e-48 GeV² at both physical momenta and three matched scales.",
+    "Physical h_i+Z unitarity cut and dispersive second derivative independently reproduce the shifted loop for both masses.",
+    "Finite D times UV control, scale slope and signed A29 Z-only projection with all W inputs fixed pass.",
+    "Byte-identical replay, locked central adoption and RCRPS v1.0.1 checks pass."
+  ]
+}

@@ -1,0 +1,11 @@
+test_a29_sign_and_no_w_input (test_mixed_z.MixedZ.test_a29_sign_and_no_w_input) ... ok
+test_absolute_reduced_vs_shifted_and_real_pole (test_mixed_z.MixedZ.test_absolute_reduced_vs_shifted_and_real_pole) ... ok
+test_finite_evanescent_term_has_positive_shift_when_omitted (test_mixed_z.MixedZ.test_finite_evanescent_term_has_positive_shift_when_omitted) ... ok
+test_independent_positive_unitarity_cut_and_dispersion (test_mixed_z.MixedZ.test_independent_positive_unitarity_cut_and_dispersion) ... ok
+test_ms_scale_slope (test_mixed_z.MixedZ.test_ms_scale_slope) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.432s
+
+OK
+PASS byte-identical native replay

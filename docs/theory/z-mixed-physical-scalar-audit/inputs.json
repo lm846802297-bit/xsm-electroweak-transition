@@ -1,0 +1,8 @@
+{
+  "parent": "b7ac8daf45fafb8f95ac720390fee3fcf7660840",
+  "benchmark": {"path": "../w-mixed-physical-scalar-audit/inputs.json", "sha256": "5d040c72127348c39aa8af899bf65a84ba1e95c7fc7dd0654ef8ee01eb402091"},
+  "a41_a42_pv_backend": {"path": "../w-mixed-physical-scalar-audit/mixed_w.py", "sha256": "f3d9173952fdeddb7d911a37add8dd9017226c0d703ee55d9a08f4f0be46fe85"},
+  "a41_b0_b1_backend": {"path": "../top-neutral-weak-audit/neutral_top.py", "sha256": "7b5fb76e1701ed797ef5fa6a515b618f716554d4777707ca1b0ae6284845ea80"},
+  "working_dps": 65,
+  "above_threshold_s_ratio": "1.25"
+}
