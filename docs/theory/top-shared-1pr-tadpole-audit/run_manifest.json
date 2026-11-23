@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0.1",
+  "record_type": "run_manifest",
+  "run_id": "20261123-top-shared-1pr-tadpole",
+  "created_at": "2026-11-23T16:18:28Z",
+  "project": {
+    "repository": "lm846802297-bit/xsm-electroweak-transition",
+    "project_id": "xsm-electroweak-transition"
+  },
+  "source": {
+    "commit_sha": "7dc6adc2be7995d92f646c1014b54ac4a12d38c4",
+    "script_path": "docs/theory/top-shared-1pr-tadpole-audit/shared_tadpole.py",
+    "script_sha256": "3a727bf6fdf514c314c9e385b86f0a6aa42efb6dad376549dd0eaf7195283fe3"
+  },
+  "inputs": [
+    {
+      "name": "xSM common one-point benchmark",
+      "source": "NST A20 plus journal §4.1 benchmark",
+      "path": "docs/theory/top-shared-1pr-tadpole-audit/inputs.json",
+      "format": "json",
+      "sha256": "dbbcec0dfeb09eb1679b1414173c2bc7d765a4208bd3570e040fd5a947d12571",
+      "bytes": 1179
+    },
+    {
+      "name": "Pinned pole fixture comparison",
+      "source": "Existing physical scalar audit at 7dc6adc2be7995d92f646c1014b54ac4a12d38c4",
+      "path": "docs/theory/top-physical-scalar-audit/inputs.json",
+      "format": "json",
+      "sha256": "40b7163f6e37322a57d22c032a1efff901aa389e532b6591ca376c2bd329cd77",
+      "bytes": 1254
+    },
+    {
+      "name": "Historical journal benchmark fixture comparison",
+      "source": "Prior version-identified journal benchmark audit",
+      "uri": "https://raw.githubusercontent.com/lm846802297-bit/xsm-electroweak-transition/6ff2c3e5af9550359692cb90b77bb84a50b1c15f/docs/theory/paper-benchmark-input-audit/inputs.json",
+      "version": "6ff2c3e5af9550359692cb90b77bb84a50b1c15f",
+      "sha256": "6ceb3185b4b6fcc8712c3f86a8e807e720c6d911c7fd21ac985315f10b5a1bed",
+      "format": "json"
+    }
+  ],
+  "configuration": {
+    "physics": {
+      "sources": {
+        "NST": {
+          "arxiv": "2103.07467v3",
+          "doi": "10.1103/PhysRevD.103.115035",
+          "pdf_sha256": "a8cc0d7652d4a6e7e882c33eaafcb04348c4ae2a3c858d62f43d98c74bef1121",
+          "erratum_doi": "10.1103/PhysRevD.109.039902",
+          "erratum_pdf_sha256": "f6c91fe8332b61382d398e84710368afda17ac5de6e10e8e133ffd61af91bb70"
+        },
+        "potential": {
+          "arxiv": "1808.07615",
+          "doi": "10.1103/PhysRevD.98.076008",
+          "equations": "3.1–3.3, 3.69–3.70"
+        },
+        "journal_benchmark": {
+          "doi": "10.1007/JHEP09(2026)260",
+          "section": "4.1",
+          "audited_input_commit": "6ff2c3e5af9550359692cb90b77bb84a50b1c15f",
+          "audited_input_path": "docs/theory/paper-benchmark-input-audit/inputs.json",
+          "audited_input_sha256": "6ceb3185b4b6fcc8712c3f86a8e807e720c6d911c7fd21ac985315f10b5a1bed"
+        }
+      },
+      "prior": {
+        "commit": "7dc6adc2be7995d92f646c1014b54ac4a12d38c4",
+        "path": "../top-physical-scalar-audit/inputs.json",
+        "sha256": "40b7163f6e37322a57d22c032a1efff901aa389e532b6591ca376c2bd329cd77"
+      },
+      "GF_GeV_minus2": "0.000011663787",
+      "MW_GeV": "80.379",
+      "MZ_GeV": "91.1876",
+      "Mt_GeV": "172.76",
+      "Mh1_GeV": "125.1",
+      "Mh2_GeV": "350",
+      "sin_theta": "0.1",
+      "a2": "3",
+      "b3_GeV": "40",
+      "b4": "0.3",
+      "gauge_xi": "1",
+      "mu_bar_GeV": [
+        "91.1876",
+        "80.379",
+        "172.76"
+      ],
+      "fd_steps_GeV": [
+        "1e-9",
+        "1e-11"
+      ]
+    },
+    "numerics": {
+      "working_decimal_digits": 65,
+      "precision_check_digits": 50,
+      "finite_steps_GeV": [
+        "1e-9",
+        "1e-11"
+      ],
+      "method": "printed tadpole sums and independent five-point background potential/linear-response"
+    },
+    "conventions": {
+      "units": "GeV",
+      "scheme": "NST MS-bar",
+      "gauge": "xi=1",
+      "propagator": "positive self-energy in inverse propagator"
+    }
+  },
+  "environment": {
+    "platform": "GPT-managed Debian GNU/Linux 13 (x86_64), Linux 6.18.57; ephemeral analysis workspace",
+    "runtime": {
+      "python": "3.12.14",
+      "python_build": "Clang 22.1.3"
+    },
+    "dependencies": {
+      "mpmath": "1.3.0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Platinum 8573C",
+      "logical_cpu_available": 9,
+      "gpu": "not used; /dev/nvidia0 absent",
+      "memory_visible_kB": 10206468,
+      "temporary_filesystem_size": "4.9 GiB reported"
+    }
+  },
+  "execution": {
+    "status": "succeeded",
+    "command": "cd docs/theory/top-shared-1pr-tadpole-audit && python shared_tadpole.py native-results.json",
+    "started_at": "2026-11-23T16:18:28Z",
+    "finished_at": "2026-11-23T16:18:28Z",
+    "source_control": {
+      "event": "local",
+      "checkout_mode": "detached_commit",
+      "checkout_ref": null,
+      "pr_number": null,
+      "pr_url": null,
+      "pr_head_sha": null,
+      "base_sha": null,
+      "tested_merge_sha": null,
+      "head_ref": null,
+      "base_ref": null,
+      "workflow_run_id": null,
+      "workflow_run_attempt": null,
+      "working_tree_state": "dirty",
+      "dirty_paths": [
+        "docs/theory/top-shared-1pr-tadpole-audit/inputs.json",
+        "docs/theory/top-shared-1pr-tadpole-audit/native-results.json",
+        "docs/theory/top-shared-1pr-tadpole-audit/shared_tadpole.py",
+        "docs/theory/top-shared-1pr-tadpole-audit/task-brief.md",
+        "docs/theory/top-shared-1pr-tadpole-audit/test_shared_tadpole.py"
+      ]
+    }
+  },
+  "outputs": [
+    {
+      "path": "docs/theory/top-shared-1pr-tadpole-audit/native-results.json",
+      "role": "native signed tadpole components, responses and residuals",
+      "format": "json",
+      "sha256": "04728db60bf9b9d99c9574c067442a3aef42292aa42b81a88d65c96916fc47ff",
+      "bytes": 14252
+    },
+    {
+      "path": "docs/theory/top-shared-1pr-tadpole-audit/run.log",
+      "role": "run summary",
+      "format": "text",
+      "sha256": "914b923ee5122076514c7c8dc3bbb826aa41a4dd25410b14e5e5789c3a9baf15",
+      "bytes": 580
+    },
+    {
+      "path": "docs/theory/top-shared-1pr-tadpole-audit/validation.log",
+      "role": "local unittest output",
+      "format": "text",
+      "sha256": "84cb44c3c01bb197f326e998deb689033b43d9a9e9e1ecb532be093b3af29ec7",
+      "bytes": 592
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "checks": [
+      {
+        "check_id": "cw-diagrams",
+        "name": "Signed diagram topology to independent field-dependent CW derivatives",
+        "category": "independent",
+        "status": "passed"
+      },
+      {
+        "check_id": "linear-response",
+        "name": "Two-field Hessian response and opposite pole/loop-minimum signs",
+        "category": "analytic",
+        "status": "passed"
+      },
+      {
+        "check_id": "cancellation",
+        "name": "A28, A29 and A30 shared tadpole null projections",
+        "category": "analytic",
+        "status": "passed"
+      },
+      {
+        "check_id": "step-precision",
+        "name": "Two finite steps and 50 versus 65 working digits",
+        "category": "convergence",
+        "status": "passed"
+      },
+      {
+        "check_id": "replay",
+        "name": "Byte-identical native replay",
+        "category": "integrity",
+        "status": "passed"
+      }
+    ]
+  },
+  "archive": {
+    "status": "local_only"
+  },
+  "extensions": {
+    "standards_provenance": {
+      "central_repository": "lm846802297-bit/high-energy-theory-research",
+      "central_commit_sha": "db503f0eb579bdbcac702e44237a6610c34690e7",
+      "lock_file_path": "research/standards-lock.yaml",
+      "lock_file_sha256": "6585db254d00d803c17307b03cffb2986f51897c6ac98f8a4f8e9fbbf6e412f2",
+      "task_id": "20261123-top-shared-1pr-tadpole",
+      "task_brief_path": "docs/theory/top-shared-1pr-tadpole-audit/task-brief.md",
+      "task_brief_sha256": "ddca06077936b2724c620da04f86668389be96412044594322fda523fe7c6af1",
+      "applied_profiles": [
+        "task-handoff",
+        "research-compute",
+        "research-quality-gate",
+        "calculation-result-archive",
+        "rcrps-v1.0.1"
+      ],
+      "project_extensions": [
+        "CONTRIBUTING.md"
+      ]
+    }
+  }
+}

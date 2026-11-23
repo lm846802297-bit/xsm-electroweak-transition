@@ -1,0 +1,8 @@
+Python 3.12.14; mpmath 1.3.0; 65 working digits.
+python shared_tadpole.py native-results.json
+Pinned baseline, prior scalar-top fixture and historical benchmark checked.
+mu_bar=MZ: t1=-389125.3583626676 GeV^3, t2=+82611.9615966313 GeV^3, T_h=-24.80702911136836 GeV.
+A30 top +0.20150324339554324; A30 W input -0.20150324339554324.
+Maximum absolute A30 residual 2.96737e-67; both gauge projections null up to rounding.
+Max topology/state scaled CW difference 8.26e-44 (step 1e-9 GeV), 8.13e-52 (step 1e-11 GeV).
+4 local tests passed, raw output byte-identical on replay; no CI run.

@@ -1,0 +1,33 @@
+{
+  "record_type": "task_provenance",
+  "provenance_version": "1.0.0",
+  "repository": "lm846802297-bit/xsm-electroweak-transition",
+  "central_repository": "lm846802297-bit/high-energy-theory-research",
+  "central_commit_sha": "db503f0eb579bdbcac702e44237a6610c34690e7",
+  "lock_file_path": "research/standards-lock.yaml",
+  "lock_file_sha256": "6585db254d00d803c17307b03cffb2986f51897c6ac98f8a4f8e9fbbf6e412f2",
+  "task_id": "20261123-top-shared-1pr-tadpole",
+  "task_brief_path": "docs/theory/top-shared-1pr-tadpole-audit/task-brief.md",
+  "task_brief_sha256": "ddca06077936b2724c620da04f86668389be96412044594322fda523fe7c6af1",
+  "applied_profiles": [
+    "task-handoff",
+    "research-compute",
+    "research-quality-gate",
+    "calculation-result-archive",
+    "rcrps-v1.0.1"
+  ],
+  "project_extensions": [
+    {
+      "path": "CONTRIBUTING.md",
+      "scope": "Research provenance, reproducibility, and independent physical checks",
+      "sha256": "533a7e6482f5965eb83efa74a71a9939592b63cc8f857e795e97586a720826d8"
+    }
+  ],
+  "acceptance_criteria": [
+    "Signed NST one-point topologies and independent CW derivatives agree within scaled 1e-36 at 65 digits with two finite steps.",
+    "Independent two-field linear response confirms the signed doublet displacement.",
+    "A28, A29 and balanced A30 shared-source projections vanish within absolute 1e-55.",
+    "Separate signs of pole VEV and local loop-minimum displacement.",
+    "Byte-identical replay and actual locked standards and RCRPS v1.0.1 validation pass."
+  ]
+}
