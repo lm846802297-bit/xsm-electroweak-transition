@@ -1,0 +1,4 @@
+{"reference":"Niemi, Schicho and Tenkanen arXiv:2103.07467v3, Appendix A, Eqs. A20, A26–A30, A36–A44, A58",
+ "source_sha256":{"arxiv_v3":"a8cc0d7652d4a6e7e882c33eaafcb04348c4ae2a3c858d62f43d98c74bef1121","aps_erratum":"f6c91fe8332b61382d398e84710368afda17ac5de6e10e8e133ffd61af91bb70"},
+ "GF_GeV_minus2":"0.000011663787","MW_GeV":"80.379","Mt_GeV":"172.76","mb_GeV":"0","Nc":3,"Vtb":"1",
+ "mu_bar_GeV":["91.1876","80.379","172.76"],"scope":"one closed top-bottom family in W self-energy; no other W/Z/top blocks"}
