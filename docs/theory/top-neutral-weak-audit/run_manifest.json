@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0.1",
+  "record_type": "run_manifest",
+  "run_id": "20261123-top-neutral-weak",
+  "created_at": "2026-11-23T14:17:12Z",
+  "project": {
+    "repository": "lm846802297-bit/xsm-electroweak-transition",
+    "project_id": "xsm-electroweak-transition"
+  },
+  "source": {
+    "commit_sha": "8f368bf32a9fc7ebbd43f64adfb9b576baf363e1",
+    "script_path": "docs/theory/top-neutral-weak-audit/neutral_top.py",
+    "script_sha256": "7b5fb76e1701ed797ef5fa6a515b618f716554d4777707ca1b0ae6284845ea80"
+  },
+  "inputs": [
+    {
+      "name": "Neutral top pole input",
+      "source": "NST numerical benchmark exact values",
+      "path": "docs/theory/top-neutral-weak-audit/inputs.json",
+      "format": "json",
+      "sha256": "d9bc5b73be084d29979b5fa88a7041115a94a0ed33652c0574ce20d554d9eadf",
+      "bytes": 692
+    },
+    {
+      "name": "Pinned charged top audit benchmark comparison",
+      "source": "Exact Git baseline 8f368bf32a9fc7ebbd43f64adfb9b576baf363e1",
+      "path": "docs/theory/top-charged-weak-audit/inputs.json",
+      "format": "json",
+      "sha256": "2725ec04825232beb100110318f3c32e19e152f3bbf8816506250b60381b4968",
+      "bytes": 755
+    }
+  ],
+  "configuration": {
+    "physics": {
+      "source": {
+        "arxiv": "2103.07467v3",
+        "doi": "10.1103/PhysRevD.103.115035",
+        "sha256": "a8cc0d7652d4a6e7e882c33eaafcb04348c4ae2a3c858d62f43d98c74bef1121",
+        "erratum_doi": "10.1103/PhysRevD.109.039902",
+        "erratum_sha256": "f6c91fe8332b61382d398e84710368afda17ac5de6e10e8e133ffd61af91bb70"
+      },
+      "fixture": {
+        "commit": "8f368bf32a9fc7ebbd43f64adfb9b576baf363e1",
+        "path": "../top-charged-weak-audit/inputs.json",
+        "sha256": "2725ec04825232beb100110318f3c32e19e152f3bbf8816506250b60381b4968"
+      },
+      "GF_GeV_minus2": "0.000011663787",
+      "MW_GeV": "80.379",
+      "MZ_GeV": "91.1876",
+      "Mt_GeV": "172.76",
+      "gauge_xi": "1",
+      "mu_bar_GeV": [
+        "91.1876",
+        "80.379",
+        "172.76"
+      ]
+    },
+    "numerics": {
+      "working_decimal_digits": 65,
+      "precision_check_digits": 45,
+      "method": "mpmath tanh-sinh and separate analytic quadratic PV reduction"
+    },
+    "conventions": {
+      "units": "GeV",
+      "scheme": "NST MS-bar",
+      "gauge": "xi=1",
+      "propagator": "positive self-energy in inverse propagator"
+    }
+  },
+  "environment": {
+    "platform": "GPT-managed Debian GNU/Linux 13 (x86_64), Linux 6.18.57; ephemeral analysis workspace",
+    "runtime": {
+      "python": "3.12.14",
+      "python_build": "Clang 22.1.3"
+    },
+    "dependencies": {
+      "mpmath": "1.3.0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Platinum 8573C",
+      "logical_cpu_available": 9,
+      "gpu": "not used; /dev/nvidia0 absent",
+      "memory_visible_kB": 10206468,
+      "temporary_filesystem_size": "4.9 GiB reported"
+    }
+  },
+  "execution": {
+    "status": "succeeded",
+    "command": "cd docs/theory/top-neutral-weak-audit && python neutral_top.py native-results.json",
+    "started_at": "2026-11-23T14:17:11Z",
+    "finished_at": "2026-11-23T14:17:12Z",
+    "source_control": {
+      "event": "local",
+      "checkout_mode": "detached_commit",
+      "checkout_ref": null,
+      "pr_number": null,
+      "pr_url": null,
+      "pr_head_sha": null,
+      "base_sha": null,
+      "tested_merge_sha": null,
+      "head_ref": null,
+      "base_ref": null,
+      "workflow_run_id": null,
+      "workflow_run_attempt": null,
+      "working_tree_state": "dirty",
+      "dirty_paths": [
+        "docs/theory/top-neutral-weak-audit/inputs.json",
+        "docs/theory/top-neutral-weak-audit/native-results.json",
+        "docs/theory/top-neutral-weak-audit/neutral_top.py",
+        "docs/theory/top-neutral-weak-audit/task-brief.md",
+        "docs/theory/top-neutral-weak-audit/test_neutral_top.py"
+      ]
+    }
+  },
+  "outputs": [
+    {
+      "path": "docs/theory/top-neutral-weak-audit/native-results.json",
+      "role": "native signed finite moments and self-energies",
+      "format": "json",
+      "sha256": "31f7de0a3ad7169abd5640964a7a16eaec05e428f4a1f2501706c3c4e70b9823",
+      "bytes": 5547
+    },
+    {
+      "path": "docs/theory/top-neutral-weak-audit/run.log",
+      "role": "run log",
+      "format": "text",
+      "sha256": "6dcc3e3722331191a4caa81d3022201b5d9e50f66b3d5ca1285d61ff81bedbfd",
+      "bytes": 487
+    },
+    {
+      "path": "docs/theory/top-neutral-weak-audit/validation.log",
+      "role": "local test output",
+      "format": "text",
+      "sha256": "cdf55737f059d9c66d79052772929cf5f8baffc1036d52734181bf7c7599faca",
+      "bytes": 596
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "checks": [
+      {
+        "check_id": "trace-pv",
+        "name": "Independent shifted chiral numerator and analytic PV",
+        "category": "independent",
+        "status": "passed"
+      },
+      {
+        "check_id": "threshold",
+        "name": "Physical zero cut and synthetic threshold/pseudothreshold",
+        "category": "analytic",
+        "status": "passed"
+      },
+      {
+        "check_id": "evanescent",
+        "name": "D numerator times the UV pole",
+        "category": "analytic",
+        "status": "passed"
+      },
+      {
+        "check_id": "precision",
+        "name": "45-to-65 working digit stability",
+        "category": "convergence",
+        "status": "passed"
+      },
+      {
+        "check_id": "replay",
+        "name": "Byte-identical native replay",
+        "category": "integrity",
+        "status": "passed"
+      }
+    ]
+  },
+  "archive": {
+    "status": "local_only"
+  },
+  "extensions": {
+    "standards_provenance": {
+      "central_repository": "lm846802297-bit/high-energy-theory-research",
+      "central_commit_sha": "db503f0eb579bdbcac702e44237a6610c34690e7",
+      "lock_file_path": "research/standards-lock.yaml",
+      "lock_file_sha256": "6585db254d00d803c17307b03cffb2986f51897c6ac98f8a4f8e9fbbf6e412f2",
+      "task_id": "20261123-top-neutral-weak",
+      "task_brief_path": "docs/theory/top-neutral-weak-audit/task-brief.md",
+      "task_brief_sha256": "6808dcc44f00b52d165f543a86a83893af4d76ec66acdf937e8904a5b5075e71",
+      "applied_profiles": [
+        "task-handoff",
+        "research-compute",
+        "research-quality-gate",
+        "calculation-result-archive",
+        "rcrps-v1.0.1"
+      ],
+      "project_extensions": [
+        "CONTRIBUTING.md"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "record_type": "task_provenance",
+  "provenance_version": "1.0.0",
+  "repository": "lm846802297-bit/xsm-electroweak-transition",
+  "central_repository": "lm846802297-bit/high-energy-theory-research",
+  "central_commit_sha": "db503f0eb579bdbcac702e44237a6610c34690e7",
+  "lock_file_path": "research/standards-lock.yaml",
+  "lock_file_sha256": "6585db254d00d803c17307b03cffb2986f51897c6ac98f8a4f8e9fbbf6e412f2",
+  "task_id": "20261123-top-neutral-weak",
+  "task_brief_path": "docs/theory/top-neutral-weak-audit/task-brief.md",
+  "task_brief_sha256": "6808dcc44f00b52d165f543a86a83893af4d76ec66acdf937e8904a5b5075e71",
+  "applied_profiles": [
+    "task-handoff",
+    "research-compute",
+    "research-quality-gate",
+    "calculation-result-archive",
+    "rcrps-v1.0.1"
+  ],
+  "project_extensions": [
+    {
+      "path": "CONTRIBUTING.md",
+      "scope": "Research provenance, reproducibility, and independent physical checks",
+      "sha256": "533a7e6482f5965eb83efa74a71a9939592b63cc8f857e795e97586a720826d8"
+    }
+  ],
+  "acceptance_criteria": [
+    "Complex shifted chiral and analytic-PV projections agree within 1e-55 at 65 digits at all reference scales.",
+    "Drift from 45 to 65 working digits is below 1e-40.",
+    "Real benchmark below the physical cut; synthetic equal-mass threshold and pseudothreshold obey causal branch.",
+    "Retain signed evanescent finite vector piece; tests and byte-identical native replay pass.",
+    "Actual locked standards, task and RCRPS v1.0.1 run manifest validate locally."
+  ]
+}
