@@ -1,0 +1,6 @@
+unscreened control radial/finite-difference scaled 2.24317e-66 1.1792226e-50
+{'thermal_unresummed': '19893.8499606', 'bare_static': '51566.20156177', 'screened_static': '51566.20156177', 'ring_only': '0.0', 'screened_once': '19893.8499606', 'wrong_add_without_subtract': '71460.05152237', 'wrong_omit_Pi_prime': '19893.8499606', 'all_mode_thermal_only_diagnostic': '19893.8499606'}
+constant screened mass shift radial/finite-difference scaled 1.6690188e-65 3.4100748e-50
+{'thermal_unresummed': '19893.8499606', 'bare_static': '51566.20156177', 'screened_static': '49417.60983003', 'ring_only': '-2148.591731741', 'screened_once': '17745.25822886', 'wrong_add_without_subtract': '69311.45979063', 'wrong_omit_Pi_prime': '17745.25822886', 'all_mode_thermal_only_diagnostic': '17386.87794733'}
+field-dependent screened mass shift radial/finite-difference scaled 5.4202023e-65 1.2177038e-49
+{'thermal_unresummed': '19893.8499606', 'bare_static': '51566.20156177', 'screened_static': '46648.31382023', 'ring_only': '-4917.88774154', 'screened_once': '14975.96221906', 'wrong_add_without_subtract': '66542.16378083', 'wrong_omit_Pi_prime': '17745.25822886', 'all_mode_thermal_only_diagnostic': '25855.48156224'}
