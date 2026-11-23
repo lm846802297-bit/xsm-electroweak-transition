@@ -1,0 +1,33 @@
+lock_version: 1
+
+central_repository: lm846802297-bit/high-energy-theory-research
+standards_release: null
+source_commit: "142267bc803c90aa681110293b66b73947bbcaa1"
+
+adopted_at: "2026-11-23"
+adoption_pr: "https://github.com/lm846802297-bit/xsm-electroweak-transition/pull/2"
+
+adopted_profiles:
+  - core-governance
+  - research-compute
+  - task-handoff
+  - scientific-diff
+  - research-quality-gate
+  - calculation-result-archive
+  - rcrps-v1.0.1
+  - git-review-and-merge
+  - document-review
+
+local_extensions:
+  - path: "CONTRIBUTING.md"
+    scope: "xSM EFT matching review, physics-specific contribution and independent validation requirements"
+  - path: "metadata/references.bib"
+    scope: "Project bibliography and primary-source record"
+  - path: "src/"
+    scope: "xSM potential, A2/A3 basis maps, dimensional-reduction matching and thermal EFT implementation"
+  - path: "tests/"
+    scope: "Project-specific symbolic, basis-translation, matching and physics regression tests"
+  - path: "research/"
+    scope: "Project-specific derivations, matching audit and scientific decision records"
+
+deviations: []
