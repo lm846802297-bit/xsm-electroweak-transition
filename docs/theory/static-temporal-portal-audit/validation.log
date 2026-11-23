@@ -1,0 +1,8 @@
+test_evanescent_loop (test_temporal_static.StaticWardAudit.test_evanescent_loop) ... ok
+test_independent_massive_holonomy (test_temporal_static.StaticWardAudit.test_independent_massive_holonomy) ... ok
+test_symbolic (test_temporal_static.StaticWardAudit.test_symbolic) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.227s
+
+OK

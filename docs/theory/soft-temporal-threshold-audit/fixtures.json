@@ -1,0 +1,4 @@
+[
+ {"label":"SM-like couplings and nonzero singlet background","T":"120","g":"0.65","gp":"0.36","gs":"1.1","yt":"0.95","a1_4":"45","a2_4":"0.55","s":"3","shift":"-4.25","rho":"10"},
+ {"label":"exactly degenerate SU(2)/U(1) Debye at origin (analytic stress test)","T":"100","g":"0.6","gp":"0.6","gs":"1","yt":"0.9","a1_4":"-31","a2_4":"0.77","equal_debye":true,"s":"0","shift":"2.5","rho":"7"}
+]

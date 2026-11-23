@@ -1,0 +1,35 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "processor": "",
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "logical_cpu_count": 5,
+  "memory_total": "6090668 kB",
+  "packages": {
+    "pytest": "9.0.2",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "setuptools": "82.0.1",
+    "pip": "25.1.1",
+    "xsm-electroweak-transition": "0.1.0"
+  },
+  "primary_execution_environment": "ChatGPT Linux container",
+  "test_command": "python -m pytest -q",
+  "test_result": "...........                                                              [100%]\n11 passed in 0.42s",
+  "test_count": 11,
+  "compile_command": "python -m compileall -q src tests scripts",
+  "covariance_command": "python scripts/run_covariance_scan.py",
+  "covariance_points": 100,
+  "covariance_seed": 20261123,
+  "covariance_relative_acceptance": 2e-11,
+  "precision_check": "mpmath 60-digit evaluation of c = 1/2[ln(8pi/9)+zeta'(2)/zeta(2)-2 gamma_E]",
+  "integration_quadrature": "not applicable: algebraic EFT matching and deterministic random-ensemble covariance test",
+  "temporal_audit": "symbolic diagnostic test: published x3 shift is twice the direct action shift; candidate half-normalization restores covariance; no full 1PI or Mathematica execution claimed",
+  "external_runtime_availability": {
+    "wolframscript": false,
+    "WolframKernel": false,
+    "math": false
+  }
+}

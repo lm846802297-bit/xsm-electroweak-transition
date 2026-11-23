@@ -1,0 +1,8 @@
+{"source":"Ramsey-Musolf, Tenkanen and Tran, JHEP 09 (2026) 260, section 2 Eqs. (2.1)–(2.8) and section 4.1",
+"journal_pdf":"https://link.springer.com/content/pdf/10.1007/JHEP09(2026)260.pdf",
+"comparison_preprint_pdf":"https://arxiv.org/pdf/2409.17554v1",
+"mh1_GeV":"125.1","mh2_GeV":"350","sin_theta":"0.1","v_h_GeV_tree_reference":"246",
+"a2":"3","b3_GeV":"40","b4":"0.3","T_engineering_map_GeV":["64.75","82.12"],
+"dralgo_reference_commit":"e00c28e3d01c83f2f2f205ba508b21709eef2d41",
+"dralgo_example_path":"examples/15_smRealSinglet.m",
+"dralgo_example_git_blob":"49a6150ac7d5a13807668e27b09ab9267b788cad"}

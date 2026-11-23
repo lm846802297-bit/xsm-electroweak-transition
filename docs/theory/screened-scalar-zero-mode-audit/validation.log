@@ -1,0 +1,10 @@
+test_explicit_insertion_removal (test_screened.StaticRingAudit.test_explicit_insertion_removal) ... ok
+test_independent_routes (test_screened.StaticRingAudit.test_independent_routes) ... ok
+test_positive_domain (test_screened.StaticRingAudit.test_positive_domain) ... ok
+test_slope_term_matches_chain_rule (test_screened.StaticRingAudit.test_slope_term_matches_chain_rule) ... ok
+test_zero_insertion_and_double_count (test_screened.StaticRingAudit.test_zero_insertion_and_double_count) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.133s
+
+OK

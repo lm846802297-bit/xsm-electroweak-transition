@@ -1,0 +1,16 @@
+{
+  "reference": "Niemi, Schicho, Tenkanen, Phys. Rev. D 103 115035 (2021), arXiv:2103.07467v3, Appendix A20/A21/A26/A29/A36–A44/A59/A60",
+  "source_sha256": {"arxiv_v3": "a8cc0d7652d4a6e7e882c33eaafcb04348c4ae2a3c858d62f43d98c74bef1121", "aps_erratum": "f6c91fe8332b61382d398e84710368afda17ac5de6e10e8e133ffd61af91bb70"},
+  "GF_GeV_minus2": "0.000011663787",
+  "MW_GeV": "80.379",
+  "MZ_GeV": "91.1876",
+  "Mt_GeV": "172.76",
+  "mu_bar_GeV": ["91.1876","80.379","172.76"],
+  "fermions": [
+    {"group":"top","Nc":3,"copies":1,"charge":"2/3","T3":"1/2","mass_key":"Mt_GeV"},
+    {"group":"u,c","Nc":3,"copies":2,"charge":"2/3","T3":"1/2"},
+    {"group":"d,s,b","Nc":3,"copies":3,"charge":"-1/3","T3":"-1/2"},
+    {"group":"e,mu,tau","Nc":1,"copies":3,"charge":"-1","T3":"-1/2"},
+    {"group":"nu_e,nu_mu,nu_tau","Nc":1,"copies":3,"charge":"0","T3":"1/2"}
+  ]
+}

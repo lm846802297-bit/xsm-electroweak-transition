@@ -1,0 +1,4 @@
+{"benchmark":{"m1":"125.1","m2":"350","sin_journal":"0.1","v_tree":"246","a2":"3","b3":"40","b4":"0.3"},
+"nst_A20_reference":{"GF":"0.000011663787","MW":"80.379","MZ":"91.1876"},
+"mu_bar_GeV":["91.1876","125.1","350"],
+"source_pins":{"nst_v3":{"url":"https://arxiv.org/pdf/2103.07467v3","sha256":"a8cc0d7652d4a6e7e882c33eaafcb04348c4ae2a3c858d62f43d98c74bef1121"},"aps_erratum":{"doi":"10.1103/PhysRevD.109.039902","url":"https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevD.109.039902/fulltext","sha256":"f6c91fe8332b61382d398e84710368afda17ac5de6e10e8e133ffd61af91bb70"}}}

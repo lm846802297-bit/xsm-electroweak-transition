@@ -1,0 +1,9 @@
+test_exact_cancellation_requires_equal_masses (test_tadpole.ScalarTadpole.test_exact_cancellation_requires_equal_masses) ... ok
+test_high_precision_integral (test_tadpole.ScalarTadpole.test_high_precision_integral) ... ok
+test_massless_and_monotone (test_tadpole.ScalarTadpole.test_massless_and_monotone) ... ok
+test_three_routes_and_ms_scale_cancel (test_tadpole.ScalarTadpole.test_three_routes_and_ms_scale_cancel) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.361s
+
+OK

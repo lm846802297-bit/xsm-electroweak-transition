@@ -11,4 +11,5 @@ dist/
 .DS_Store
 .env
 *.log
+!results/validation/covariance-run.log
 results/raw/

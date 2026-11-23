@@ -1,0 +1,9 @@
+test_determinant_derivatives_include_neutral_mixing (test_threshold.TemporalThresholdTests.test_determinant_derivatives_include_neutral_mixing) ... ok
+test_factor_two_is_not_full_curvature_factor (test_threshold.TemporalThresholdTests.test_factor_two_is_not_full_curvature_factor) ... ok
+test_field_shift_and_matrix_degeneracy (test_threshold.TemporalThresholdTests.test_field_shift_and_matrix_degeneracy) ... ok
+test_second_stage_matches_momentum_integrals (test_threshold.TemporalThresholdTests.test_second_stage_matches_momentum_integrals) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.226s
+
+OK

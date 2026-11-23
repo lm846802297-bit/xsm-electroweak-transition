@@ -1,0 +1,5 @@
+{"T":"120","s":"0","mode_data":[
+ {"label":"Higgs doublet","n":4,"X0":"3600","X1":"22.5","X2":"0.30","P0":"2025","P1":"7","P2":"0.05"},
+ {"label":"singlet","n":1,"X0":"32400","X1":"-90","X2":"0.40","P0":"3700","P1":"-8","P2":"0.07"}
+],"cases":[{"name":"unscreened control","Pi":"none"},{"name":"constant screened mass shift","Pi":"constant"},{"name":"field-dependent screened mass shift","Pi":"field"}],
+"insertion_eps":["1e-3","5e-4","2.5e-4"]}

@@ -1,0 +1,10 @@
+test_a28_is_sign_sentinel_not_full_gauge_match (test_pole.ScalarVacuumPole.test_a28_is_sign_sentinel_not_full_gauge_match) ... ok
+test_independent_bubble_and_static_CW (test_pole.ScalarVacuumPole.test_independent_bubble_and_static_CW) ... ok
+test_nst_angle_convention (test_pole.ScalarVacuumPole.test_nst_angle_convention) ... ok
+test_real_pole_and_heavy_threshold (test_pole.ScalarVacuumPole.test_real_pole_and_heavy_threshold) ... ok
+test_tadpoles_are_numerically_nonzero (test_pole.ScalarVacuumPole.test_tadpoles_are_numerically_nonzero) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.589s
+
+OK
