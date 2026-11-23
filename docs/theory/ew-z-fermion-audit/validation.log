@@ -1,0 +1,10 @@
+test_early_d4_loses_the_predicted_finite_pole_term (test_zferm.NeutralFermionTests.test_early_d4_loses_the_predicted_finite_pole_term) ... ok
+test_independent_pv_at_all_scales_and_momenta (test_zferm.NeutralFermionTests.test_independent_pv_at_all_scales_and_momenta) ... ok
+test_massless_closed_form_and_optical_sign (test_zferm.NeutralFermionTests.test_massless_closed_form_and_optical_sign) ... ok
+test_scale_difference_is_its_uv_pole_coefficient (test_zferm.NeutralFermionTests.test_scale_difference_is_its_uv_pole_coefficient) ... ok
+test_zero_momentum_vector_ward_and_axial_a44 (test_zferm.NeutralFermionTests.test_zero_momentum_vector_ward_and_axial_a44) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.506s
+
+OK

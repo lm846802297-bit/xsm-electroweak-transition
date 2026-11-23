@@ -1,0 +1,10 @@
+python 3.12.14; mpmath 1.3.0; dps=65
+python zferm.py native-results.json
+At mu_bar=91.1876 GeV:
+Pi_Z top at zero = +198.77617546607151 GeV^2
+Pi_Z top at pole = +181.08125401039554 GeV^2
+Pi_Z light at pole = +118.22168927191978 +222.84263430698307 i GeV^2
+A29 isolated closed Z-fermion relative term = +0.16140195761277145
+A29 isolated closed Z-fermion additive gprime^2 = +0.01974811087547478
+Maximum direct/PV discrepancy = 9.115745e-64 GeV^2
+Light Im(Pi_Z)/MZ = 2.4437822062098692 GeV (tree width control)
