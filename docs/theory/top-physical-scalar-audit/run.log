@@ -1,0 +1,7 @@
+Python 3.12.14; mpmath 1.3.0; 65 working digits.
+python physical_top.py native-results.json
+Historical benchmark pins/amplitude inputs verified; prior PV source reused by SHA-256.
+At mu_bar=MZ: unweighted h1 -0.00643307476695771178; h2 -0.02008493981243309370.
+Weighted shift -0.00656959341741246560; change from zero mixing -0.00013651865045475382.
+Independent direct quadrature/PV stripped kernel max discrepancy 2.373892e-66.
+Five local tests passed; exact JSON byte replay; no CI.

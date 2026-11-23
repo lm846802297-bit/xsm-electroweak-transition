@@ -1,0 +1,2 @@
+COMPLIANT: schemas, exact central revision, profile references, extension references, and supplied provenance checks passed
+PASS docs/theory/top-physical-scalar-audit/run_manifest.json: schema, source-control provenance, and local input/output integrity

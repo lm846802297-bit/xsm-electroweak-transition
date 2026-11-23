@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0.1",
+  "record_type": "run_manifest",
+  "run_id": "20261123-top-physical-scalar",
+  "created_at": "2026-11-23T15:14:29Z",
+  "project": {
+    "repository": "lm846802297-bit/xsm-electroweak-transition",
+    "project_id": "xsm-electroweak-transition"
+  },
+  "source": {
+    "commit_sha": "b22fbc1c221720982529cb260f54385ea95a27fa",
+    "script_path": "docs/theory/top-physical-scalar-audit/physical_top.py",
+    "script_sha256": "65ff1dd94fe675acfde71bb8fd4f1ace8712da4f756bcf02130c16136026bdf9"
+  },
+  "inputs": [
+    {
+      "name": "Physical scalar top input",
+      "source": "NST plus journal §4.1 benchmark",
+      "path": "docs/theory/top-physical-scalar-audit/inputs.json",
+      "format": "json",
+      "sha256": "40b7163f6e37322a57d22c032a1efff901aa389e532b6591ca376c2bd329cd77",
+      "bytes": 1254
+    },
+    {
+      "name": "Pinned EW fixture comparison",
+      "source": "Existing neutral audit at b22fbc1c221720982529cb260f54385ea95a27fa",
+      "path": "docs/theory/top-neutral-weak-audit/inputs.json",
+      "format": "json",
+      "sha256": "d9bc5b73be084d29979b5fa88a7041115a94a0ed33652c0574ce20d554d9eadf",
+      "bytes": 692
+    },
+    {
+      "name": "Pinned analytic PV backend",
+      "source": "Existing neutral audit at b22fbc1c221720982529cb260f54385ea95a27fa",
+      "path": "docs/theory/top-neutral-weak-audit/neutral_top.py",
+      "format": "python",
+      "sha256": "7b5fb76e1701ed797ef5fa6a515b618f716554d4777707ca1b0ae6284845ea80",
+      "bytes": 4735
+    },
+    {
+      "name": "Historical journal benchmark fixture comparison",
+      "source": "Prior version-identified journal benchmark audit",
+      "uri": "https://raw.githubusercontent.com/lm846802297-bit/xsm-electroweak-transition/6ff2c3e5af9550359692cb90b77bb84a50b1c15f/docs/theory/paper-benchmark-input-audit/inputs.json",
+      "version": "6ff2c3e5af9550359692cb90b77bb84a50b1c15f",
+      "sha256": "6ceb3185b4b6fcc8712c3f86a8e807e720c6d911c7fd21ac985315f10b5a1bed",
+      "format": "json"
+    }
+  ],
+  "configuration": {
+    "physics": {
+      "source": {
+        "arxiv": "2103.07467v3",
+        "doi": "10.1103/PhysRevD.103.115035",
+        "sha256": "a8cc0d7652d4a6e7e882c33eaafcb04348c4ae2a3c858d62f43d98c74bef1121",
+        "erratum_doi": "10.1103/PhysRevD.109.039902",
+        "erratum_sha256": "f6c91fe8332b61382d398e84710368afda17ac5de6e10e8e133ffd61af91bb70"
+      },
+      "journal_benchmark": {
+        "doi": "10.1007/JHEP09(2026)260",
+        "section": "4.1",
+        "audited_input_commit": "6ff2c3e5af9550359692cb90b77bb84a50b1c15f",
+        "audited_input_path": "docs/theory/paper-benchmark-input-audit/inputs.json",
+        "audited_input_sha256": "6ceb3185b4b6fcc8712c3f86a8e807e720c6d911c7fd21ac985315f10b5a1bed"
+      },
+      "prior": {
+        "commit": "b22fbc1c221720982529cb260f54385ea95a27fa",
+        "input_path": "../top-neutral-weak-audit/inputs.json",
+        "input_sha256": "d9bc5b73be084d29979b5fa88a7041115a94a0ed33652c0574ce20d554d9eadf",
+        "pv_source_path": "../top-neutral-weak-audit/neutral_top.py",
+        "pv_source_sha256": "7b5fb76e1701ed797ef5fa6a515b618f716554d4777707ca1b0ae6284845ea80"
+      },
+      "GF_GeV_minus2": "0.000011663787",
+      "MW_GeV": "80.379",
+      "MZ_GeV": "91.1876",
+      "Mt_GeV": "172.76",
+      "Mh1_GeV": "125.1",
+      "Mh2_GeV": "350",
+      "sin_theta": "0.1",
+      "mu_bar_GeV": [
+        "91.1876",
+        "80.379",
+        "172.76"
+      ],
+      "heavy_mass_controls_GeV": [
+        "350",
+        "3500",
+        "35000"
+      ]
+    },
+    "numerics": {
+      "working_decimal_digits": 65,
+      "precision_check_digits": 45,
+      "method": "shifted mpmath tanh-sinh and pinned separate analytic-PV primitive"
+    },
+    "conventions": {
+      "units": "GeV",
+      "scheme": "NST MS-bar",
+      "gauge": "xi=1",
+      "propagator": "positive self-energy in inverse propagator"
+    }
+  },
+  "environment": {
+    "platform": "GPT-managed Debian GNU/Linux 13 (x86_64), Linux 6.18.57; ephemeral analysis workspace",
+    "runtime": {
+      "python": "3.12.14",
+      "python_build": "Clang 22.1.3"
+    },
+    "dependencies": {
+      "mpmath": "1.3.0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Platinum 8573C",
+      "logical_cpu_available": 9,
+      "gpu": "not used; /dev/nvidia0 absent",
+      "memory_visible_kB": 10206468,
+      "temporary_filesystem_size": "4.9 GiB reported"
+    }
+  },
+  "execution": {
+    "status": "succeeded",
+    "command": "cd docs/theory/top-physical-scalar-audit && python physical_top.py native-results.json",
+    "started_at": "2026-11-23T15:14:29Z",
+    "finished_at": "2026-11-23T15:14:29Z",
+    "source_control": {
+      "event": "local",
+      "checkout_mode": "detached_commit",
+      "checkout_ref": null,
+      "pr_number": null,
+      "pr_url": null,
+      "pr_head_sha": null,
+      "base_sha": null,
+      "tested_merge_sha": null,
+      "head_ref": null,
+      "base_ref": null,
+      "workflow_run_id": null,
+      "workflow_run_attempt": null,
+      "working_tree_state": "dirty",
+      "dirty_paths": [
+        "docs/theory/top-physical-scalar-audit/inputs.json",
+        "docs/theory/top-physical-scalar-audit/native-results.json",
+        "docs/theory/top-physical-scalar-audit/physical_top.py",
+        "docs/theory/top-physical-scalar-audit/task-brief.md",
+        "docs/theory/top-physical-scalar-audit/test_physical_top.py"
+      ]
+    }
+  },
+  "outputs": [
+    {
+      "path": "docs/theory/top-physical-scalar-audit/native-results.json",
+      "role": "native signed pole terms and heavy-mass controls",
+      "format": "json",
+      "sha256": "f1b633334a3d7808b8ee5834f362b4a26a497502ede661e690c781a5bba7a35b",
+      "bytes": 10155
+    },
+    {
+      "path": "docs/theory/top-physical-scalar-audit/run.log",
+      "role": "run summary",
+      "format": "text",
+      "sha256": "cfa32d5aac2fdba866b7b0c44899afdfa249851724bd50bbf81603564f354b2c",
+      "bytes": 485
+    },
+    {
+      "path": "docs/theory/top-physical-scalar-audit/validation.log",
+      "role": "local unittest output",
+      "format": "text",
+      "sha256": "bf84c14a2b4fcb856455f6bc67352baf0942a8608ec35e1ea31bae5d1c7a689e",
+      "bytes": 710
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "checks": [
+      {
+        "check_id": "trace-pv",
+        "name": "Signed shifted numerator versus analytic PV",
+        "category": "independent",
+        "status": "passed"
+      },
+      {
+        "check_id": "mixing",
+        "name": "Zero mixing and equal masses",
+        "category": "analytic",
+        "status": "passed"
+      },
+      {
+        "check_id": "cut",
+        "name": "Real pole and synthetic equal-mass cut signs",
+        "category": "analytic",
+        "status": "passed"
+      },
+      {
+        "check_id": "heavy",
+        "name": "Analytic heavy logarithm remainder bound and mixing families",
+        "category": "analytic",
+        "status": "passed"
+      },
+      {
+        "check_id": "precision",
+        "name": "45 versus 65 working digits",
+        "category": "convergence",
+        "status": "passed"
+      },
+      {
+        "check_id": "replay",
+        "name": "Byte-identical native replay",
+        "category": "integrity",
+        "status": "passed"
+      }
+    ]
+  },
+  "archive": {
+    "status": "local_only"
+  },
+  "extensions": {
+    "standards_provenance": {
+      "central_repository": "lm846802297-bit/high-energy-theory-research",
+      "central_commit_sha": "db503f0eb579bdbcac702e44237a6610c34690e7",
+      "lock_file_path": "research/standards-lock.yaml",
+      "lock_file_sha256": "6585db254d00d803c17307b03cffb2986f51897c6ac98f8a4f8e9fbbf6e412f2",
+      "task_id": "20261123-top-physical-scalar",
+      "task_brief_path": "docs/theory/top-physical-scalar-audit/task-brief.md",
+      "task_brief_sha256": "09bd67282481e247ddccc896562f6652b7385c677be4c4df6d790e857aba507b",
+      "applied_profiles": [
+        "task-handoff",
+        "research-compute",
+        "research-quality-gate",
+        "calculation-result-archive",
+        "rcrps-v1.0.1"
+      ],
+      "project_extensions": [
+        "CONTRIBUTING.md"
+      ]
+    }
+  }
+}

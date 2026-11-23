@@ -1,0 +1,10 @@
+test_asymptotic_bound_and_mixing_family (test_physical_top.PhysicalTopTests.test_asymptotic_bound_and_mixing_family) ... ok
+test_precision (test_physical_top.PhysicalTopTests.test_precision) ... ok
+test_signed_pv_independent_direct_and_real_physical_poles (test_physical_top.PhysicalTopTests.test_signed_pv_independent_direct_and_real_physical_poles) ... ok
+test_threshold_with_positive_scalar_weight (test_physical_top.PhysicalTopTests.test_threshold_with_positive_scalar_weight) ... ok
+test_zero_mix_equal_mass_and_common_log (test_physical_top.PhysicalTopTests.test_zero_mix_equal_mass_and_common_log) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.504s
+
+OK
