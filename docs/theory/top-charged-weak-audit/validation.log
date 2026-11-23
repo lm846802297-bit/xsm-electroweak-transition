@@ -1,0 +1,9 @@
+test_equal_invariant_threshold_and_cut (test_charged_top.ChargedTopTests.test_equal_invariant_threshold_and_cut) ... ok
+test_full_complex_projection_and_evanescent_term (test_charged_top.ChargedTopTests.test_full_complex_projection_and_evanescent_term) ... ok
+test_optical_versus_physical_W_spin_sum (test_charged_top.ChargedTopTests.test_optical_versus_physical_W_spin_sum) ... ok
+test_precision_and_reference_scale (test_charged_top.ChargedTopTests.test_precision_and_reference_scale) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.197s
+
+OK

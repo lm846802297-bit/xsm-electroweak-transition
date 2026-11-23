@@ -1,0 +1,7 @@
+Python 3.12.14; mpmath 1.3.0; dps=65.
+python charged_top.py native-results.json
+Historical input comparison matched the exact prior audit SHA-256.
+At mu_bar=MZ: relative delta yt^2 +0.0042172204615879931060.
+Direct/PV complex B1 difference below 3e-66 (before loop factor).
+The optical and tree spin-sum bW widths agree at 1.4885152927131860434 GeV.
+Four local unit checks passed; identical replay bytes. CI not run.

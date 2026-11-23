@@ -1,0 +1,21 @@
+{
+  "primary": {
+    "arxiv": "2103.07467v3", "doi": "10.1103/PhysRevD.103.115035",
+    "pdf_sha256": "a8cc0d7652d4a6e7e882c33eaafcb04348c4ae2a3c858d62f43d98c74bef1121",
+    "erratum": "10.1103/PhysRevD.109.039902",
+    "erratum_pdf_sha256": "f6c91fe8332b61382d398e84710368afda17ac5de6e10e8e133ffd61af91bb70"
+  },
+  "comparison_fixture": {
+    "commit": "b1ba61e6a27224696822db20367da2e364e9e33b",
+    "path": "docs/theory/top-massless-vector-audit/inputs.json",
+    "sha256": "88f3372ce2c412c1354a9e477903602ede36c9ed1cf0555f3f84d5d575cc49ed"
+  },
+  "GF_GeV_minus2": "0.000011663787",
+  "MW_GeV": "80.379",
+  "MZ_GeV": "91.1876",
+  "Mt_GeV": "172.76",
+  "mb_GeV": "0",
+  "Vtb_abs": "1",
+  "gauge_xi": "1",
+  "mu_bar_GeV": ["91.1876","80.379","172.76"]
+}
