@@ -1,0 +1,9 @@
+Python 3.12.14; mpmath 1.3.0; 65 working digits.
+Archived W/Z inputs compared to immutable GitHub raw bytes before replay.
+Maximum numerical D-trace minus A61 PV bracket = 2.967365e-67.
+mu_bar=MZ:
+Relative yt^2 shift from gluon -0.00416257188387283885
+Relative yt^2 shift from photon -0.00008888134922146128
+Sum -0.00425145323309430012; premature D=4 result -0.02984820770464111271
+mu_bar=Mt: summed relative shift -0.10238701788618725037.
+Repository-equivalent sibling-directory replay matched native JSON byte-for-byte.

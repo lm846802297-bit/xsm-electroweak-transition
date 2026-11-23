@@ -1,0 +1,10 @@
+test_archived_input_hash_fail_closed (test_top_vector.TopVectorTests.test_archived_input_hash_fail_closed) ... ok
+test_pole_scale_standard_QCD_and_QED (test_top_vector.TopVectorTests.test_pole_scale_standard_QCD_and_QED) ... ok
+test_pv_trace_analytic_and_early_D4 (test_top_vector.TopVectorTests.test_pv_trace_analytic_and_early_D4) ... ok
+test_scale_shift_and_zero (test_top_vector.TopVectorTests.test_scale_shift_and_zero) ... ok
+test_threshold_limit_from_below_real_and_convergent (test_top_vector.TopVectorTests.test_threshold_limit_from_below_real_and_convergent) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.301s
+
+OK
