@@ -1,0 +1,8 @@
+{
+ "NST":{"arxiv":"2103.07467v3","doi":"10.1103/PhysRevD.103.115035","pdf_sha256":"a8cc0d7652d4a6e7e882c33eaafcb04348c4ae2a3c858d62f43d98c74bef1121","erratum_doi":"10.1103/PhysRevD.109.039902","erratum_pdf_sha256":"f6c91fe8332b61382d398e84710368afda17ac5de6e10e8e133ffd61af91bb70"},
+ "journal":{"doi":"10.1007/JHEP09(2026)260","section":"4.1","audit_commit":"6ff2c3e5af9550359692cb90b77bb84a50b1c15f","audit_sha256":"6ceb3185b4b6fcc8712c3f86a8e807e720c6d911c7fd21ac985315f10b5a1bed"},
+ "prior":{"commit":"ca8b2ec6654a533939ab775c5f3eae1070cc0c2f","input_path":"../top-shared-1pr-tadpole-audit/inputs.json","input_sha256":"dbbcec0dfeb09eb1679b1414173c2bc7d765a4208bd3570e040fd5a947d12571",
+          "pv_path":"../top-neutral-weak-audit/neutral_top.py","pv_sha256":"7b5fb76e1701ed797ef5fa6a515b618f716554d4777707ca1b0ae6284845ea80"},
+ "GF_GeV_minus2":"0.000011663787","MW_GeV":"80.379","MZ_GeV":"91.1876","Mt_GeV":"172.76","Mh1_GeV":"125.1","Mh2_GeV":"350","sin_theta":"0.1","gauge_xi":"1",
+ "mu_bar_GeV":["91.1876","80.379","172.76"]
+}

@@ -1,0 +1,33 @@
+{
+  "record_type": "task_provenance",
+  "provenance_version": "1.0.0",
+  "repository": "lm846802297-bit/xsm-electroweak-transition",
+  "central_repository": "lm846802297-bit/high-energy-theory-research",
+  "central_commit_sha": "db503f0eb579bdbcac702e44237a6610c34690e7",
+  "lock_file_path": "research/standards-lock.yaml",
+  "lock_file_sha256": "6585db254d00d803c17307b03cffb2986f51897c6ac98f8a4f8e9fbbf6e412f2",
+  "task_id": "20261123-w-mixed-physical-scalar",
+  "task_brief_path": "docs/theory/w-mixed-physical-scalar-audit/task-brief.md",
+  "task_brief_sha256": "11823b64f89a3ee87a9efe97e874ef51013f51d3617f105079172a6aef893f9d",
+  "applied_profiles": [
+    "task-handoff",
+    "research-compute",
+    "research-quality-gate",
+    "calculation-result-archive",
+    "rcrps-v1.0.1"
+  ],
+  "project_extensions": [
+    {
+      "path": "CONTRIBUTING.md",
+      "scope": "Research provenance, reproducibility, and independent physical checks",
+      "sha256": "533a7e6482f5965eb83efa74a71a9939592b63cc8f857e795e97586a720826d8"
+    }
+  ],
+  "acceptance_criteria": [
+    "Direct regulated shifted scalar and tensor bubbles match analytic A41/A42 and A44 at zero within 1e-50 at all sampled benchmark scales.",
+    "Real physical pole and signed analytic synthetic imaginary cut verified.",
+    "Log slopes plus known wrong early-D4 finite difference verified.",
+    "A28 and A30 W-input-only projections checked and not represented as full match.",
+    "Byte-identical replay, locked central adoption and RCRPS v1.0.1 validation pass."
+  ]
+}

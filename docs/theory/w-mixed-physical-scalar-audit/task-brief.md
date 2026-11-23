@@ -1,0 +1,16 @@
+# Research Task Brief: two mixed physical-scalar W self-energy bubbles
+
+Task ID 20261123-w-mixed-physical-scalar. Pre-execution brief, November 23 UTC.
+
+1. **Question.** Isolate and validate the momentum-dependent mixed physical h_i–W and h_i–charged-Goldstone bubbles in NST (A58), at zero and the W pole in the 350 GeV benchmark. Demonstrate their projections onto (A28) and only the W-input algebra of (A30). Exclude seagulls, all 1PR tadpoles, other W/Z terms, full pole matching and thermal work.
+2. **Sources.** NST Phys. Rev. D 103 115035, arXiv:2103.07467v3, §II scalar kinetic and rotation conventions, (A20), (A26)–(A30), (A36)–(A44), (A58), and their published APS erratum. Physically take the published benchmark of Ramsey-Musolf, Tenkanen and Tran, JHEP 09 (2026) 260 §4.1. Previously validated benchmark input bytes are immutable.
+3. **Baseline.** Lock-enabled research/top-charged-weak-audit ca8b2ec6654a533939ab775c5f3eae1070cc0c2f, clean detached baseline. xSM main 5d354669a2c46da1d53b4560476f3981493ed7be and Draft #1 b1ba61e6a27224696822db20367da2e364e9e33b untouched. Track new source and dirty paths.
+4. **Conventions.** Zero-temperature xSM, tree-minimum zero singlet VEV, MS-bar with inverse propagator plus self-energy and Feynman +i0, xi=1, W and charged Goldstone same pole-mass input in these loops. Tree gauge coupling from NST Gmu and W pole mass. Journal sin(theta)=+0.1 gives squared h1/h2 doublet weights 0.99/0.01. Masses, momenta and scale in GeV units.
+5. **Assumptions.** Keep exactly the explicit B0/B00 bubble terms of (A58) that contain a massive physical Higgs and either the charged vector or charged Goldstone. This is a gauge-fixed class, not shown separately gauge invariant. The physical W pole lies below either mixed cut.
+6. **Known.** Common W/VEV 1PR cancellation and closed fermion bubbles already audited. Do not recompute or add them. Use pinned analytic PV scalar backend or equivalent independently evaluated formula, not prior numerical self-energy results.
+7. **Derivation.** From Higgs kinetic term and transverse numerator connect the bubbles to the A58 coefficients. Integrate the shifted scalar and tensor functions directly using the regulated IBP identity, separately using analytic PV A41/A42 and A44 at zero. Retain D-times-pole finite terms.
+8. **Acceptance.** Direct and reduced signed shapes at 0 and MW² agree within 1e-50 at 65 digits. Verify physical real threshold and auxiliary causal cut, analytic log-scale slopes and a wrong early-D=4 control using the same reduction at both momenta. Distinguish A30 W-only from top self-energy. Byte replay, manifest and pinned standards check pass; CI not requested.
+9. **Outputs.** Add only topic scientific derivation, pinned input/source/test/native results/checksums, logs and actual run/task machine provenance. Stage only.
+10. **Remaining.** All other bosonic sectors, momentum-independent seagulls, full EW/VEV and 3D matching remain unvalidated here.
+
+Central source db503f0eb579bdbcac702e44237a6610c34690e7. Canonical research/standards-lock.yaml SHA-256 6585db254d00d803c17307b03cffb2986f51897c6ac98f8a4f8e9fbbf6e412f2. Profiles task-handoff, research-compute, research-quality-gate, calculation-result-archive and rcrps-v1.0.1; applied CONTRIBUTING.md for reproducibility and independent validation.

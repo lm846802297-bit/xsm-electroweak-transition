@@ -1,0 +1,8 @@
+Python 3.12.14; mpmath 1.3.0; 65 decimal working digits.
+python mixed_w.py native-results.json
+Exact sibling fixture and analytic scalar backend matched recorded fingerprints.
+mu_bar=MZ: PiW(0)=-13.8052909785291173 and PiW(MW^2)=-12.2620528942920162 GeV^2.
+A28 isolated +0.0002388623687138730; premature D=4 +0.0000888912836274842.
+A30 W-only +0.0021367827411710593; no full EW synthesis.
+Max direct/PV bubble discrepancy 1.234424e-64 GeV^2.
+5 tests passed; exact native JSON replay; no CI.

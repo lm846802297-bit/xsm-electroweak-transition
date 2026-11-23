@@ -1,0 +1,10 @@
+test_direct_and_PV_both_momenta_and_A44_zero (test_mixed_w.MixedWTests.test_direct_and_PV_both_momenta_and_A44_zero) ... ok
+test_equal_mass_cut (test_mixed_w.MixedWTests.test_equal_mass_cut) ... ok
+test_log_scale_slope_and_W_only_identity (test_mixed_w.MixedWTests.test_log_scale_slope_and_W_only_identity) ... ok
+test_precision_and_source_benchmark (test_mixed_w.MixedWTests.test_precision_and_source_benchmark) ... ok
+test_premature_dimension_negative_control (test_mixed_w.MixedWTests.test_premature_dimension_negative_control) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.178s
+
+OK
