@@ -1,6 +1,6 @@
 # xSM Electroweak Transition — Repository Instructions
 
-Shared research governance, compute execution, task handoff, scientific-change tracking, quality gates, result archival, structured records, document review, and Git integration are defined by the central research infrastructure repository and pinned in [research/standards-lock.yaml](research/standards-lock.yaml). Start from the [Central Research Standards Index](https://github.com/lm846802297-bit/high-energy-theory-research/blob/db503f0eb579bdbcac702e44237a6610c34690e7/docs/governance/CENTRAL_STANDARDS_INDEX.md).
+Shared research governance, compute execution, task handoff, scientific-change tracking, quality gates, result archival, structured records, document review, and Git integration are defined by the central research infrastructure repository and pinned in [research/standards-lock.yaml](research/standards-lock.yaml). Start from the [Central Research Standards Index](https://github.com/lm846802297-bit/high-energy-theory-research/blob/14155487afc075d301fa7f6cf452c7bff137e869/docs/governance/CENTRAL_STANDARDS_INDEX.md).
 
 This repository remains authoritative for xSM physics, scalar-field basis conventions, dimensional-reduction matching, thermal effective-field-theory calculations, perturbative order counting, and project-specific scientific acceptance criteria.
 
@@ -10,8 +10,8 @@ Before substantive work:
 
 1. Read this file, README.md, CONTRIBUTING.md, the PR template, and research/standards-lock.yaml.
 2. Read the pinned Central Research Standards Index.
-3. For a new derivation, matching calculation, numerical run, parameter scan, or multi-agent handoff, prepare a concise Research Task Brief using the [central Task Handoff Standard](https://github.com/lm846802297-bit/high-energy-theory-research/blob/db503f0eb579bdbcac702e44237a6610c34690e7/docs/RESEARCH_TASK_HANDOFF_STANDARD.md) and [template](https://github.com/lm846802297-bit/high-energy-theory-research/blob/db503f0eb579bdbcac702e44237a6610c34690e7/templates/research-task-brief.md). Use the existing project research layout; do not restructure solely to host a brief.
-4. Select the appropriate [central Research Quality Gate](https://github.com/lm846802297-bit/high-energy-theory-research/blob/db503f0eb579bdbcac702e44237a6610c34690e7/docs/governance/RESEARCH_QUALITY_GATE.md) profile. Define checks and acceptance criteria before starting the substantive calculation.
+3. For a new derivation, matching calculation, numerical run, parameter scan, or multi-agent handoff, prepare a concise Research Task Brief using the [central Task Handoff Standard](https://github.com/lm846802297-bit/high-energy-theory-research/blob/14155487afc075d301fa7f6cf452c7bff137e869/docs/RESEARCH_TASK_HANDOFF_STANDARD.md) and [template](https://github.com/lm846802297-bit/high-energy-theory-research/blob/14155487afc075d301fa7f6cf452c7bff137e869/templates/research-task-brief.md). Use the existing project research layout; do not restructure solely to host a brief.
+4. Select the appropriate [central Research Quality Gate](https://github.com/lm846802297-bit/high-energy-theory-research/blob/14155487afc075d301fa7f6cf452c7bff137e869/docs/governance/RESEARCH_QUALITY_GATE.md) profile. Define checks and acceptance criteria before starting the substantive calculation.
 5. Inspect open PRs, exact source/input revisions, existing calculations, raw outputs, and provenance before repeating work.
 
 
@@ -36,7 +36,7 @@ The following project-specific scientific requirements remain local and authorit
 
 ## 3. Computation, provenance, and validation
 
-Follow the pinned central [Research Compute Policy](https://github.com/lm846802297-bit/high-energy-theory-research/blob/db503f0eb579bdbcac702e44237a6610c34690e7/RESEARCH_COMPUTE_POLICY.md). For every substantive calculation, preserve:
+Follow the pinned central [Research Compute Policy](https://github.com/lm846802297-bit/high-energy-theory-research/blob/14155487afc075d301fa7f6cf452c7bff137e869/RESEARCH_COMPUTE_POLICY.md). For every substantive calculation, preserve:
 
 1. Exact source commit SHA and clean/dirty working-tree state.
 2. SHA-256 hashes of source, input data, model parameters, and configuration files.
@@ -54,11 +54,11 @@ New substantial numerical runs use central RCRPS v1.0.1, including the complete 
 - Keep active calculations and matching audits on topic branches. Do not develop directly on main.
 - main contains completed and reviewed research records; a Draft PR is not an accepted result.
 - Preserve the active A2/A3 and NLO matching work on its existing branch and PR. Governance migration must not retarget, rebase, or rewrite that scientific branch.
-- Follow the pinned central [Git merge policy](https://github.com/lm846802297-bit/high-energy-theory-research/blob/db503f0eb579bdbcac702e44237a6610c34690e7/docs/governance/GIT_MERGE_POLICY.md). Substantive research changes default to Create a merge commit.
+- Follow the pinned central [Git merge policy](https://github.com/lm846802297-bit/high-energy-theory-research/blob/14155487afc075d301fa7f6cf452c7bff137e869/docs/governance/GIT_MERGE_POLICY.md). Substantive research changes default to Create a merge commit.
 - After merge, verify the integrated main state and archive. Report software tests, symbolic identities, numerical convergence, and physical validation separately.
 
 ## 5. Reporting
 
-Follow the central [Research Task Handoff Standard](https://github.com/lm846802297-bit/high-energy-theory-research/blob/db503f0eb579bdbcac702e44237a6610c34690e7/docs/RESEARCH_TASK_HANDOFF_STANDARD.md) and [Scientific Diff reporting standard](https://github.com/lm846802297-bit/high-energy-theory-research/blob/db503f0eb579bdbcac702e44237a6610c34690e7/docs/scientific-diff-workflow.md#11-research-reporting-and-communication-standard).
+Follow the central [Research Task Handoff Standard](https://github.com/lm846802297-bit/high-energy-theory-research/blob/14155487afc075d301fa7f6cf452c7bff137e869/docs/RESEARCH_TASK_HANDOFF_STANDARD.md) and [Scientific Diff reporting standard](https://github.com/lm846802297-bit/high-energy-theory-research/blob/14155487afc075d301fa7f6cf452c7bff137e869/docs/scientific-diff-workflow.md#11-research-reporting-and-communication-standard).
 
 Report the conclusion, evidence, quantitative results, and remaining work. Keep completed matching results separate from pending DRalgo comparison, temporal-sector covariance audit, bounce/nucleation/percolation, gravitational-wave spectra, and collider re-projection.
